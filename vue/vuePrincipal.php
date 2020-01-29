@@ -7,59 +7,31 @@
 <header>
 	
 
-		
-
-
-
 <div class="row " id="home">
 	
-<!-- 	<div class ="englobe"> -->
 	
 	<img class= "h-100 d-inline-block bg-info" src=images/back3.jpeg alt = "Image d'arrière plan montrant du code" style="width: 99.4%"/>
 	
-		<div class="centered">
-	
-		
 
-		</div>
-	
-<!-- 	</div>  -->
-
-		
-	
-	
-	
 </div>
 	
-	
-
-	</header>
+</header>
 	
 	
 	<body>
-	
-	
-	
-
-	
+		
 		<div class="row d-block mx-auto bg-dark p-5 ml-0" id="QuiSuisJe">
 		
 			<h1 >Qui suis je ?</h1>
 		</div>
 
 	
-	
-	
-	
-	
 		<div class="row">
 			
 				<div class="banner-area " style = "max-width: 100%;" >
 		 
         
-     		
-      	  			<div class="col-xl d-flex "align="center">
-			
+      	  			<div class="col-xl d-flex" align="center">	
 						
  						
 								<div class = "text">
@@ -71,24 +43,16 @@ Passionné d’informatique et plus particulièrement de programmation, j’ai c
 Ce portfolio ( en cours de construction), que j’ai souhaité coder entièrement sans recourir à l’utilisation d’un CMS ou template, vous présente mon parcours et mes compétences.<br><br><br>
 									
 								</div>
-							
-
-					
-			
 		 	    	</div>
-		 	    
+		 	    		
 				</div>
-			</div>
+		</div>
 	
 	
 			
-
-		
-	
-			<div class="row d-block mx-auto bg-dark p-5 ml-0" id="Parcours">
-		
-				 <h1>Mon parcours </h1>
-			</div>
+		<div class="row d-block mx-auto bg-dark p-5 ml-0" id="Parcours">
+			 <h1>Mon parcours </h1>
+		</div>
 	 
 	   
 	   <br>
@@ -164,34 +128,47 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
              </div>
 	
 	<br><br>
-		<p>Pour plus de précisions, mon CV peut être téléchargé ci-dessous :</p>
+		<p>Pour plus de précisions, mon CV et mes semestres de BTS peuvent être téléchargés ci-dessous :</p>
 		
 		<div class="md-4 text-center"> 
     		<a class = "btn" href="images/cv.pdf" download="cv">Télécharger mon CV</a>
+
+			<a class = "btn" href="images/cv.pdf" download="cv">Télécharger mes semestres</a>
 		</div>
 		
-		
+		<!--
+		<a  data-toggle="modal" data-target="#popup{{$tag->id}}" class='btn btn-primary btn-lg text-white'>Supprimer</a>
+                            <a href='/admin/tags/edit/{{$tag->id}}' class='btn btn-primary btn-lg'>Modifier</a>
+
+                              Pop Up suppression  
+                        <div id="popup{{$tag->id}}" class="modal fade" role="dialog">
+                            <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title text-center">Confirmer la suppression du tag</h4>
+                                         <button type="button" class="close text-right" data-dismiss="modal">&times;</button>        
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class = "row justify-content-between">
+                                            <a href='/admin/tags/delete/{{$tag->id}}' class="btn btn-danger btn-lg ml-5" >Oui</a>
+                                            <button type="button" class="btn btn-primary btn-lg mr-5" data-dismiss="modal">Non</button>
+                                        </div>      
+                                    </div>
+                               </div>
+                            </div>
+                        </div>
+		-->
 	<br><br>
-		
 	
-				
-			
-					
-					
 	</div>
 					
-					
-				
-		
-		
 </div>
 			
 		
 	
 		
 <div class="row d-block mx-auto bg-dark p-5 ml-0" id="Projets"> 
-		
- 				 <h1>Mes projets</h1> 
+ 	 <h1>Mes projets</h1> 
 </div> 
 		
 	<div class = "row">
@@ -207,7 +184,8 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
   					<div class="card-body m-0">
   					
    						 <h5 class="card-title">BioRelai</h5>
-    					 <p class="card-text">BioRelai est un site dynamique en PHP orienté Objet relié à une BDD MySql avec méthodes d'ajouts, modifications et suppressions de données.</p>
+    					 <p class="card-text">BioRelai est un site dynamique en PHP orienté Objet relié à une BDD MySql
+						  avec connexion, gestion de droits, méthodes d'ajouts, modifications et suppressions de données.</p>
     					 
     					 <div class = "text-center">
     					 	<a href="#" class="btn m-2">Voir la doc</a><a href="#" class="btn m-2">Voir le code</a>
@@ -227,7 +205,8 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
   					<div class="card-body">
   					
    						 <h5 class="card-title">Ce site portfolio</h5>
-    					 <p class="card-text">Mon site portfolio est fait en PHP qui renvoie du HTML, CSS, JS en partie associé à Bootstrap (Framework HTML/CSS qui permet d'avoir des éléments responsiv).</p>
+    					 <p class="card-text">Mon site portfolio est en HTML, CSS, JS en partie associé à Bootstrap 
+						 (Framework/Librairie de HTML/CSS/JS qui permet d'avoir des éléments responsiv).</p>
     					 
     					 <div class = "text-center">
     					 	<a href="vue/docSiteCV.php" class="btn m-2">Voir la doc</a><a href="https://github.com/chiptu/SiteCV" class="btn m-2">Voir le code</a>
@@ -244,7 +223,9 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
   					<div class="card-body">
   					
    						 <h5 class="card-title">Le barbu</h5>
-    					 <p class="card-text">Le barbu est un jeu de cartes se jouant à plusieurs.L'application doit permettre d'y jouer mais aussi de modifier les règles si l'utilisateur le veut.L'application est en Java avec une BDD Sqlite. </p>
+    					 <p class="card-text">Le barbu est un jeu de cartes se jouant à plusieurs.L'application doit
+						  permettre d'y jouer mais aussi de modifier les règles si l'utilisateur le veut.L'application 
+						  est en Java avec une BDD Sqlite. </p>
     					 
     					 <div class = "text-center">
     					 	<a href="#" class="btn m-2">Voir la doc</a><a href="#" class="btn m-2">Voir le code</a>
@@ -255,8 +236,7 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
   					</div>
 			</div>
 			
-			
-			
+		
 			
 			
 			<div class="card p-2" style="width: 30rem;">
@@ -264,7 +244,8 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
   					<div class="card-body">
   					
    						 <h5 class="card-title">Petits projets,travaux en vrac</h5>
-    					 <p class="card-text">Pendu , démineur , échec, from scratch jouable en ligne de commande.</p>
+    					 <p class="card-text">Pendu , démineur , échec, from scratch jouable en ligne de commande en python.
+						 TP scolaire Java POO. Application .exe pour envoyer des mails en C#.</p>
     					 
     					 <div class = "text-center">
     					 	<a href="#" class="btn m-2">Voir la doc</a><a href="#" class="btn m-2">Voir le code</a>
@@ -274,13 +255,7 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
    					
   					</div>
 			</div>
-			
-			
-			
-			
-			
-			
-			
+				
 
 		</div>
 
@@ -289,16 +264,15 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
 		
 		
 
-	</body>
+</body>
 	
-	<footer class=" bg-secondary text mt-5 p-3">
+<footer class=" bg-dark text mt-5 p-3">
 	
 	<div class = "row">
 		
 			<div class = "col-sm-12" >
 				
-				
-				
+	
 					 <ul class="social-icons">
           				
                     		<li><a href="https://github.com/chiptu" ><img src = "images/github.png" alt = "Logo de Github"></a></li>
@@ -307,20 +281,12 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
                    			 
                    			 <li><a href="https://www.linkedin.com/in/alexandre-le-guillou-7765b5163/"><img src = "images/linkedin.png" alt = "Logo de linkedin"></a></li>
                    	</ul>
-                   	
-                    
-                
 			
 			</div>
 		
 		</div>
   <div class = "text-part"> 2019 © - Le Guillou Alexandre </div>
   
-  
-
-
-	
-
   
 </footer>
 
