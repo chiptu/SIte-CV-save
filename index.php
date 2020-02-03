@@ -8,6 +8,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
+	
 	<!--
 		HESITEZ PAS A TESTER LA PAGE 404 EN AJOUTANT UNE FIN D URL QUI N EXISTE PAS 
 		-->

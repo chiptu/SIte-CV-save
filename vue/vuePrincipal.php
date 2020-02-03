@@ -1,7 +1,7 @@
 
 
 
-	
+
 	
 
 <header>
@@ -128,36 +128,18 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
              </div>
 	
 	<br><br>
-		<p>Pour plus de précisions, mon CV et mes semestres de BTS peuvent être téléchargés ci-dessous :</p>
+		<p>Pour plus de précisions, mon CV peut être téléchargé ci-dessous :</p>
 		
 		<div class="md-4 text-center"> 
     		<a class = "btn" href="images/cv.pdf" download="cv">Télécharger mon CV</a>
-
-			<a class = "btn" href="images/cv.pdf" download="cv">Télécharger mes semestres</a>
 		</div>
 		
-		<!--
-		<a  data-toggle="modal" data-target="#popup{{$tag->id}}" class='btn btn-primary btn-lg text-white'>Supprimer</a>
-                            <a href='/admin/tags/edit/{{$tag->id}}' class='btn btn-primary btn-lg'>Modifier</a>
+		<p class="mt-5">Ainsi que mes semestres de BTS :</p>
+		
+		<div class="md-4 text-center"> 
+			<a class = "btn mt-2" href="images/semestres.pdf" download="semestres">Télécharger mes semestres</a>
+		</div>
 
-                              Pop Up suppression  
-                        <div id="popup{{$tag->id}}" class="modal fade" role="dialog">
-                            <div class="modal-dialog modal-sm">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h4 class="modal-title text-center">Confirmer la suppression du tag</h4>
-                                         <button type="button" class="close text-right" data-dismiss="modal">&times;</button>        
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class = "row justify-content-between">
-                                            <a href='/admin/tags/delete/{{$tag->id}}' class="btn btn-danger btn-lg ml-5" >Oui</a>
-                                            <button type="button" class="btn btn-primary btn-lg mr-5" data-dismiss="modal">Non</button>
-                                        </div>      
-                                    </div>
-                               </div>
-                            </div>
-                        </div>
-		-->
 	<br><br>
 	
 	</div>
