@@ -170,7 +170,7 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
 						  avec connexion, gestion de droits, méthodes d'ajouts, modifications et suppressions de données.</p>
     					 
     					 <div class = "text-center">
-    					 	<a href="#" class="btn m-2">Voir la doc</a><a href="#" class="btn m-2">Voir le code</a>
+    					 	<a href="vue/docBioRelai.php" class="btn m-2">Voir la doc</a><a href="#" class="btn m-2">Voir le code</a>
     					 </div>
    						 
    						 
@@ -210,7 +210,7 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
 						  est en Java avec une BDD Sqlite. </p>
     					 
     					 <div class = "text-center">
-    					 	<a href="#" class="btn m-2">Voir la doc</a><a href="#" class="btn m-2">Voir le code</a>
+    					 	<a href="vue/docLeBarbu.php" class="btn m-2">Voir la doc</a><a href="#" class="btn m-2">Voir le code</a>
     					 </div>
    						 
    						 
@@ -230,7 +230,7 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
 						 TP scolaire Java POO. Application .exe pour envoyer des mails en C#.</p>
     					 
     					 <div class = "text-center">
-    					 	<a href="#" class="btn m-2">Voir la doc</a><a href="#" class="btn m-2">Voir le code</a>
+    					 	<a href="vue/docTravaux.php" class="btn m-2">Voir la doc</a><a href="#" class="btn m-2">Voir le code</a>
     					 </div>
    						 
    						 

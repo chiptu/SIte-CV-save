@@ -21,6 +21,11 @@
 
 
 
+
+
+
+
+
 	<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
 		
     		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup2" aria-controls="navbarNavAltMarkup2" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,7 +49,7 @@
 		
 	<br>
 	
-	<h1>Site Portfolio</h1>
+	<h1>Le Barbu</h1>
 	
 	
 	
