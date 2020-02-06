@@ -118,7 +118,7 @@ h1
 .text
 {
 	 
-	  text-align: justify;
+	text-align: justify;
     display: block;
     font-size: 18px;
 
@@ -200,9 +200,16 @@ h1
 
 .container h1
 {
-	
 	color:black;
 	text-decoration:underline;
+}
+
+.container h2
+{
+	color:black;
+	text-decoration:underline;
+	text-align:justify;
+	margin-left:5em;
 }
 
 .container
