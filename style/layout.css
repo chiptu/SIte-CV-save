@@ -6,6 +6,7 @@ html
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+   
 }
 
 
@@ -209,12 +210,35 @@ h1
 	color:black;
 	text-decoration:underline;
 	text-align:justify;
-	margin-left:5em;
+	margin-left:15%;
+	margin-right:25%;
 }
 
-.container
+.container h4
+{
+	color:black;
+	text-decoration:underline;
+	text-align:justify;
+	margin-left:17%;
+	margin-right:25%;
+}
+
+
+.container 
 {
 	height:2000px;
+}
+
+.container p
+{
+	text-align:justify;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.container a
+{
+	margin-left:2em;
 }
 #navbarNavAltMarkup2 a
 {
