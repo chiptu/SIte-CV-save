@@ -67,34 +67,21 @@
 		<div class = "container bg-white" id="doc">
 		
 			<br>
-			<!--
-	
-			
-			<div class ="sommaire mx-auto">
-			
-				<a href="#Intro" class ="text-primary h2">-Introduction</a> <br>
-	
-				<a href="#Intro"  class ="text-primary h2" >-BootStrap/Jquery</a><br>
-					<a href="#Intro" class ="text-primary h3 pl-5">Environnement</a><br>
-					<a href="#Intro" class ="text-primary h3 pl-5">Base de bootstrap</a><br>
-					<a href="#Intro" class ="text-primary h3 pl-5">Exemples d'éléments</a><br>
-	
-				<a href="#Intro"  class ="text-primary h2" >-SEO</a><br>
-					<a href="#Intro" class ="text-primary h3 pl-5">Les critères</a><br>
-					<a href="#Intro" class ="text-primary h3 pl-5">Exemple de mon site</a><br>
-					
-				<a href="#Intro"  class ="text-primary h2">-Hébergement</a><br>
-					<a href="#Intro" class ="text-primary h3 pl-5">Configuration serveur</a><br>
-					
-				<br>
-			</div>
-			 -->
+
 	
 			<h1>Site Portfolio</h1><br><br><br>
 	
 			<h2 id ="Intro">Introduction</h2><br>
 				<p>Ce que j'ai appris en faisant mon site CV n'est pas lié réellement aux langages de programmations à proprement dis mais ce qui l'entoure (mise en forme , indexation google, hébergement).</p>
-				<p>J'ai fais codé ce site </p><br>
+				<p>J'ai codé ce site en utilisant pour seul librairie/framework bootstrap qui permet d'avoir des éléments responsiv (les éléments s'adaptent au format pc/tablette/mobile).
+				 BootStrap inclut Jquery qui est une librairie de JavaScript permettant de rendre des éléments html dynamiques (boutons , collapses...).</p>
+				 <p>Comme vous pouvez le voir ci-dessous l'arborescence du site est au format MVC (Modèle Vue Contrôleur) et le html est renvoyé par du php
+				 alors que je n'utilise pas de modèle/contrôleur. En réalité c'est au cas où pour l'évolutivité du site et aussi je dois l'avouer que dans ma formation c'était devenu une habitude de commencer les projets comme cela.</p><br>
+			
+				<img class="picture h-25 "
+    			 src="../images/doc/ImgSiteCV/arbo.png"
+     			 alt="Arborescence code SiteCV">
+			
 			
 			<h2 id ="1">BootStrap/Jquery</h2><br>
 				<h4 id ="1-1">Base de bootstrap</h4><br>
