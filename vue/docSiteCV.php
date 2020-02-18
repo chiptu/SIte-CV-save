@@ -84,6 +84,10 @@
 			
 			
 			<h2 id ="1">BootStrap/Jquery</h2><br>
+				<p> Bootstrap est un framework/librairie de html/css et inclut même certains éléments de jquery (librairie en js pour dynamiser le html)
+				 comme des boutons pop up / collapses ....
+				 Bootstrap est initialement un outil interne à twitter qui est passé en open source en 2011 et qui est devenue le projet le plus populaire de Github en 2012.</p><br>
+			
 				<h4 id ="1-1">Base de bootstrap</h4><br>
 				<h4 id ="1-1">Exemples d'éléments</h4><br>
 			
