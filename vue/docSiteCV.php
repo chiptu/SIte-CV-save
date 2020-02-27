@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 <html lang="fr">
-	
+	<head>
 
 		<script src="../style/jquery-3.4.1.js"></script>
 
@@ -27,7 +27,9 @@
 		
 		<script src="../style/bootstrap-4.3.1/dist/js/bootstrap.min.js"></script>
 
+</head>
 
+<body>
 
 
 
@@ -105,3 +107,4 @@
 	</div>
 	
 </div>
+</body>
