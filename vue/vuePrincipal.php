@@ -31,7 +31,7 @@
 				<div class="banner-area " style = "max-width: 100%;" >
 		 
         
-      	  			<div class="col-xl d-flex" align="center">	
+      	  			<div class="col-xl d-flex" >	
 						
  						
 								<div class = "text">
@@ -267,7 +267,7 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
 			</div>
 		
 		</div>
-  <div class = "text-part"> 2019 © - Le Guillou Alexandre </div>
+  <div class = "text-part"> 2020 © - Le Guillou Alexandre </div>
   
   
 </footer>
