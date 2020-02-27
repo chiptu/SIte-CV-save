@@ -72,11 +72,15 @@
 			<h1>Site Portfolio</h1><br><br><br>
 	
 			<h2 id ="Intro">Introduction</h2><br>
-				<p>Ce que j'ai appris en faisant mon site CV n'est pas lié réellement aux langages de programmations à proprement dis mais ce qui l'entoure (mise en forme , indexation google, hébergement).</p>
-				<p>J'ai codé ce site en utilisant pour seul librairie/framework bootstrap qui permet d'avoir des éléments responsiv (les éléments s'adaptent au format pc/tablette/mobile).
+				<p>Ce que j'ai appris en faisant mon site CV n'est pas lié réellement aux langages de programmations à
+				 proprement dis mais ce qui l'entoure (mise en forme , indexation google, hébergement).</p>
+				<p>J'ai codé ce site en utilisant pour seul librairie/framework bootstrap qui permet d'avoir des éléments 
+				responsiv (les éléments s'adaptent au format pc/tablette/mobile).
 				 BootStrap inclut Jquery qui est une librairie de JavaScript permettant de rendre des éléments html dynamiques (boutons , collapses...).</p>
-				 <p>Comme vous pouvez le voir ci-dessous l'arborescence du site est au format MVC (Modèle Vue Contrôleur) et le html est renvoyé par du php
-				 alors que je n'utilise pas de modèle/contrôleur. En réalité c'est au cas où pour l'évolutivité du site et aussi je dois l'avouer que dans ma formation c'était devenu une habitude de commencer les projets comme cela.</p>
+				<p>Comme vous pouvez le voir ci-dessous l'arborescence du site est au format MVC (Modèle Vue Contrôleur) et
+				 le html est renvoyé par du php
+				alors que je n'utilise pas de modèle/contrôleur. En réalité c'est au cas où pour l'évolutivité du site et
+			    aussi je dois l'avouer que dans ma formation c'était devenu une habitude de commencer les projets comme cela.</p>
 			
 				<img class="picture h-5 m-4"
     			 src="../images/doc/ImgSiteCV/arbo.png"
@@ -94,14 +98,16 @@
 			
 			<h2 id ="2">SEO</h2><br>
 				<p>	SEO est l'acronyme de Search Engine Optimization ce qui correspond à l'optimisation pour les moteurs de recherche.
-				Cette optimisation est un ensemble de critère sur lesquel (Google, DuckDuckGo, Qwant, Yahoo...) vont indexer les sites en fonction
+				Cette optimisation est un ensemble de critère sur lesquels (Google, DuckDuckGo, Qwant, Yahoo...) vont indexer les sites en fonction
 				de la recherche de l'utilisateur. </p><br>
 
 				<h4 id ="1-1">Les critères</h4><br>
 
 				<div class ="ph4"> Il existe de nombreux sites qui listent les critères d'optimisations pour les moteurs de recherche j'en ai comparé 
 				plusieurs et woorank me semble le plus claire, vous pouvez retrouvez l'analyse de mon site sur woorank en cliquant
-				<a id ="lien"class="text-primary d-inline ml-0" href="https://www.woorank.com/fr/www/leguilloualexandre.fr">ici</a>.</div>
+				<a id ="lien"class="text-primary d-inline ml-0" href="https://www.woorank.com/fr/www/leguilloualexandre.fr">ici</a>.</div><br>
+				<div class ="ph4">1-Données connexes Balises indicatives (meta données / og ) 2-UX Performance(mise en cache)/Mobile/Sécurité 
+				3-Importance Trafic/Liens(dont Réseaux sociaux et outil analyse) 4-Norme d'indexation (Robot.txt/Sitemap.xml/page 404) </div><br>
 				
 
 				<h4 id ="1-1">Exemple de mon site</h4><br>
