@@ -150,10 +150,14 @@
 				<h4 id ="1-1">Les critères</h4><br>
 
 				<div class ="ph4"> Il existe de nombreux sites qui listent les critères d'optimisations pour les moteurs de recherche j'en ai comparé 
-				plusieurs et woorank me semble le plus claire, vous pouvez retrouver l'analyse de mon site sur woorank en cliquant
-				<a id ="lien"class="text-primary d-inline ml-0" href="https://www.woorank.com/fr/www/leguilloualexandre.fr">ici</a>.</div><br>
-				<div class ="ph4">1-Données connexes Balises indicatives (meta données / og ) 2-UX Performance(mise en cache)/Mobile/Sécurité 
-				3-Importance Trafic/Liens(dont Réseaux sociaux et outil analyse) 4-Norme d'indexation (Robot.txt/Sitemap.xml/page 404) </div><br>
+				plusieurs et woorank me semble le plus claire, vous pouvez retrouvez l'analyse de mon site sur woorank en cliquant
+				<a id ="lien"class="text-primary d-inline ml-0" href="https://www.woorank.com/fr/www/leguilloualexandre.fr">ici</a>.<br><br>
+				J'ai regroupé ces critères en 4 parties que voici :<br><br></div>
+
+				<div class ="ph4">-Données connexes Balises indicatives (meta données / og ) 
+				<br><br>-UX Performance(mise en cache)/Mobile/Sécurité 
+				<br><br>-Importance Trafic/Liens(dont Réseaux sociaux et outil analyse) 
+				<br><br>-Norme d'indexation (Robot.txt/Sitemap.xml/page 404) </div><br>
 				
 
 				<h4 id ="1-1">Exemple de mon site</h4><br>
