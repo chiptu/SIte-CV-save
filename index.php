@@ -9,6 +9,7 @@
 <html lang="fr">
 	<head>
 	
+	
 	<!--
 		HESITEZ PAS A TESTER LA PAGE 404 EN AJOUTANT UNE FIN D URL QUI N EXISTE PAS 
 		-->
@@ -82,11 +83,11 @@
 		 
 	</head>
 
-
+	
 
 	
 		
-	<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top w-100">
 		
     		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         		<span class="navbar-toggler-icon"></span>
@@ -114,6 +115,6 @@
 		?>
 	
 	
-
+	
 
 </html>

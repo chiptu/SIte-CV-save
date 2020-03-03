@@ -20,7 +20,7 @@
 	
 	<body>
 		
-		<div class="row d-block mx-auto bg-dark p-5 ml-0" id="QuiSuisJe">
+		<div class="row d-block mx-auto bg-dark p-5" id="QuiSuisJe">
 		
 			<h1 >Qui suis je ?</h1>
 		</div>
@@ -31,7 +31,7 @@
 				<div class="banner-area " style = "max-width: 100%;" >
 		 
         
-      	  			<div class="col-xl d-flex" >	
+      	  			<div class="col d-flex" >	
 						
  						
 								<div class = "text">
@@ -50,7 +50,7 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
 	
 	
 			
-		<div class="row d-block mx-auto bg-dark p-5 ml-0" id="Parcours">
+		<div class="row d-block mx-auto bg-dark p-5" id="Parcours">
 			 <h1>Mon parcours </h1>
 		</div>
 	 
@@ -62,7 +62,7 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
 			<div class="banner-area mx-auto" style = "max-width: 100%;" >
 	
 		
-				<div class="col-md-auto">
+				<div class="col-auto">
 				
 					<div class="card-deck" id="formations">
 
@@ -130,14 +130,14 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
 	<br><br>
 		<p>Pour plus de précisions, mon CV peut être téléchargé ci-dessous :</p>
 		
-		<div class="md-4 text-center"> 
-    		<a class = "btn" href="images/cv.pdf" download="cv">Télécharger mon CV</a>
+		<div class="m-4 text-center"> 
+    		<a class = "btn btn-primary mr-5" href="images/cv.pdf" download="cv">Télécharger mon CV</a>
 		</div>
 		
 		<p class="mt-5">Ainsi que mes semestres de BTS :</p>
 		
-		<div class="md-4 text-center"> 
-			<a class = "btn mt-2" href="images/semestres.pdf" download="semestres">Télécharger mes semestres</a>
+		<div class="mt-4 text-center"> 
+			<a class = "btn btn-primary mt-2 mr-5" href="images/semestres.pdf" download="semestres">Télécharger mes semestres</a>
 		</div>
 
 	<br><br>
@@ -149,13 +149,13 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
 		
 	
 		
-<div class="row d-block mx-auto bg-dark p-5 ml-0" id="Projets"> 
+<div class="row d-block mx-auto bg-dark p-5 " id="Projets"> 
  	 <h1>Mes projets</h1> 
 </div> 
 		
 	<div class = "row">
 
-		<div class = "col-sm-12 p-5" >
+		<div class = "col-12 p-5" >
 		
 		<div class="card-deck" id="projets">
 				
@@ -170,7 +170,7 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
 						  avec connexion, gestion de droits, méthodes d'ajouts, modifications et suppressions de données.</p>
     					 
     					 <div class = "text-center">
-    					 	<a href="vue/docBioRelai.php" class="btn m-2">Voir la doc</a><a href="#" class="btn m-2">Voir le code</a>
+    					 	<a href="vue/docBioRelai.php" class="btn btn-primary m-2">Voir la doc</a><a href="#" class="btn btn-primary m-2">Voir le code</a>
     					 </div>
    						 
    						 
@@ -191,7 +191,7 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
 						 (Framework/Librairie de HTML/CSS/JS qui permet d'avoir des éléments responsiv).</p>
     					 
     					 <div class = "text-center">
-    					 	<a href="vue/docSiteCV.php" class="btn m-2">Voir la doc</a><a href="https://github.com/chiptu/SiteCV" class="btn m-2">Voir le code</a>
+    					 	<a href="vue/docSiteCV.php" class="btn btn-primary m-2">Voir la doc</a><a href="https://github.com/chiptu/SiteCV" class="btn btn-primary m-2">Voir le code</a>
     					 </div>
    						 
    						 
@@ -210,7 +210,7 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
 						  est en Java avec une BDD Sqlite. </p>
     					 
     					 <div class = "text-center">
-    					 	<a href="vue/docLeBarbu.php" class="btn m-2">Voir la doc</a><a href="#" class="btn m-2">Voir le code</a>
+    					 	<a href="vue/docLeBarbu.php" class="btn btn-primary m-2">Voir la doc</a><a href="#" class="btn btn-primary m-2">Voir le code</a>
     					 </div>
    						 
    						 
@@ -225,12 +225,12 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
   				<img class="card-img-top" src="images/code-cafe.png" alt="image de code sur un pc portable">
   					<div class="card-body">
   					
-   						 <h5 class="card-title">Petits projets,travaux en vrac</h5>
+   						 <h5 class="card-title">Petits projets,travaux</h5>
     					 <p class="card-text">Pendu , démineur , échec, from scratch jouable en ligne de commande en python.
 						 TP scolaire Java POO. Application .exe pour envoyer des mails en C#.</p>
     					 
     					 <div class = "text-center">
-    					 	<a href="vue/docTravaux.php" class="btn m-2">Voir la doc</a><a href="#" class="btn m-2">Voir le code</a>
+    					 	<a href="vue/docTravaux.php" class="btn btn-primary m-2">Voir la doc</a><a href="#" class="btn btn-primary m-2">Voir le code</a>
     					 </div>
    						 
    						 
@@ -252,7 +252,7 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
 	
 	<div class = "row">
 		
-			<div class = "col-sm-12" >
+			<div class = "col-12" >
 				
 	
 					 <ul class="social-icons">
