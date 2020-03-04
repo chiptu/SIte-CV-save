@@ -1,7 +1,7 @@
 
 
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr " >
 	<head>
 
 		<script src="../style/jquery-3.4.1.js"></script>
@@ -31,7 +31,7 @@
 
 <body>
 
-
+	
 
 	<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
 		
@@ -43,18 +43,19 @@
     	
        		 <div class="navbar-nav mx-auto">
        		 	
-       		 	<a href="#Intro">Introduction</a><br>
-       		 	<a href="#1">BootStrap/Jquery</a><br>
-       		 	<a href="#2">SEO</a><br>
-       		 	<a href="#3">Hébergement</a><br>
+       		 	<a class="js-scrollTo" href="#Intro">Introduction</a><br>
+       		 	<a class="js-scrollTo" href="#1">BootStrap/Jquery</a><br>
+       		 	<a class="js-scrollTo" href="#2">SEO</a><br>
+       		 	<a class="js-scrollTo" href="#3">Hébergement</a><br>
        		 	<a href="http://127.0.0.1/Site_CV2/#Projets"> Revenir aux projets </a>
        		 	
        		 	
-				
-        	</div>
-    	</div>
+		
 	</nav>
 	
+		</div>
+
+	</div>
 	
 
 	
@@ -73,7 +74,7 @@
 	
 			<h1>Site Portfolio</h1><br><br><br>
 	
-			<h2 id ="Intro">Introduction</h2><br>
+			<h2 class="pt-5" id ="Intro">Introduction</h2><br>
 				<p>Ce que j'ai appris en faisant mon site CV n'est pas lié réellement aux langages de programmations à
 				 proprement dis mais ce qui l'entoure (mise en forme , indexation google, hébergement).</p>
 				<p>J'ai codé ce site en utilisant pour seul librairie/framework bootstrap qui permet d'avoir des éléments 
@@ -89,7 +90,7 @@
      			 alt="Arborescence code SiteCV"><br>
 			
 			
-			<h2 id ="1">BootStrap/Jquery</h2><br>
+				<h2 class="pt-5" id ="1">BootStrap/Jquery</h2><br>
 				<p> Bootstrap est un framework/librairie de html/css et inclut même certains éléments de jquery (librairie en js pour dynamiser le html)
 				 comme des boutons pop up / collapses ....
 				 Bootstrap est initialement un outil interne à twitter qui est passé en open source en 2011 
@@ -104,8 +105,8 @@
     			 src="../images/doc/ImgSiteCV/bootstrap12.png"
      			 alt="Exemple row col bootstrap">
 				
-				 <div class ="ph4">De manière assez basique les colonnes et les éléments de celles ci vont s'aligner horizontalement si l'écran de l'utilisateur n'est pas assez large.
-				 Par exemple voici la fin de mon site en version pc et version mobile.</div><br>
+				 <div class ="ph4">De manière assez basique les colonnes et les éléments de celles-ci vont s'aligner verticalement si l'écran de l'utilisateur n'est pas assez large.
+				 Par exemple voici la fin de mon site en version pc et en version mobile.</div><br>
 				 
 				 
 				  <img class="picture h-5 m-4 w-25 rounded"
@@ -142,7 +143,7 @@
 				
 				<h4 id ="1-1">Exemples d'éléments</h4><br>
 			
-			<h2 id ="2">SEO</h2><br>
+			<h2 id ="2" class="pt-5">SEO</h2><br>
 				<p>	SEO est l'acronyme de Search Engine Optimization ce qui correspond à l'optimisation pour les moteurs de recherche.
 				Cette optimisation est un ensemble de critère sur lesquels (Google, DuckDuckGo, Qwant, Yahoo...) vont indexer les sites en fonction
 				de la recherche de l'utilisateur. </p><br>
@@ -154,15 +155,15 @@
 				<a id ="lien"class="text-primary d-inline ml-0" href="https://www.woorank.com/fr/www/leguilloualexandre.fr">ici</a>.<br><br>
 				J'ai regroupé ces critères en 4 parties que voici :<br><br></div>
 
-				<div class ="ph4">-Données connexes Balises indicatives (meta données / og ) 
-				<br><br>-UX Performance(mise en cache)/Mobile/Sécurité 
-				<br><br>-Importance Trafic/Liens(dont Réseaux sociaux et outil analyse) 
+				<div class ="ph4">-Balises indicatives (meta données / og ) 
+				<br><br>-UX (mise en cache)/Mobile/Sécurité 
+				<br><br>-Importance [Trafic/Liens(dont Réseaux sociaux et outil analyse)] 
 				<br><br>-Norme d'indexation (Robot.txt/Sitemap.xml/page 404) </div><br>
 				
 
 				<h4 id ="1-1">Exemple de mon site</h4><br>
 			
-			<h2 id ="3">Hébergement</h2><br>
+			<h2 id ="3" class="pt-5">Hébergement</h2><br>
 				<h4 id ="1-1">Configuration serveur</h4><br>
 	
 	      

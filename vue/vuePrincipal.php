@@ -10,9 +10,9 @@
 <div class="row " id="home">
 	
 	
-	<img class= "h-100 d-inline-block bg-info" src=images/back3.jpeg alt = "Image d'arrière plan montrant du code" style="width: 99.4%"/>
+		<img class= "h-100 d-inline-block bg-info" src=images/back3.jpeg alt = "Image d'arrière plan montrant du code" style="width: 99.4%"/>
 	
-
+	
 </div>
 	
 </header>
@@ -20,9 +20,10 @@
 	
 	<body>
 		
-		<div class="row d-block mx-auto bg-dark p-5" id="QuiSuisJe">
-		
-			<h1 >Qui suis je ?</h1>
+		<div class="row justify-content-center bg-dark p-5" id="QuiSuisJe">
+			<div class ="col-12">
+				<h1 >Qui suis je ?</h1>
+			</div>
 		</div>
 
 	
@@ -31,16 +32,16 @@
 				<div class="banner-area " style = "max-width: 100%;" >
 		 
         
-      	  			<div class="col d-flex" >	
+      	  			<div class="col" >	
 						
  						
 								<div class = "text">
 									
 								<br><br>
 							Je suis étudiant en deuxième année de BTS SIO (Services Informatiques aux Organisations), spécialité SLAM (Solutions Logicielles et applications métiers) au lycée Gustave Eiffel.<br> <br>
-Passionné d’informatique et plus particulièrement de programmation, j’ai choisi cette formation pour approfondir mes connaissances en HTML, CSS, PHP, Java… 
+Passionné d’informatique et plus particulièrement de programmation, j’ai choisi cette formation pour approfondir mes connaissances en PHP, JavaScript, Java , HTML, CSS… 
  A l’issue de ce BTS, je serai formé pour développer, adapter et maintenir des solutions applicatives. <br><br>
-Ce portfolio ( en cours de construction), que j’ai souhaité coder entièrement sans recourir à l’utilisation d’un CMS ou template, vous présente mon parcours et mes compétences.<br><br><br>
+Ce portfolio ( en cours de construction), que j’ai souhaité coder entièrement sans recourir à l’utilisation d’un CMS ou template, vous présente mon parcours ,mes compétences, expériences et projets.<br><br><br>
 									
 								</div>
 		 	    	</div>
@@ -50,7 +51,7 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
 	
 	
 			
-		<div class="row d-block mx-auto bg-dark p-5" id="Parcours">
+		<div class="row  justify-content-center bg-dark p-5" id="Parcours">
 			 <h1>Mon parcours </h1>
 		</div>
 	 
@@ -149,7 +150,7 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
 		
 	
 		
-<div class="row d-block mx-auto bg-dark p-5 " id="Projets"> 
+<div class="row justify-content-center bg-dark p-5 " id="Projets"> 
  	 <h1>Mes projets</h1> 
 </div> 
 		

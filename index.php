@@ -101,11 +101,15 @@
             	<a class="js-scrollTo" href="#QuiSuisJe"> Qui suis-je </a>
 				<a class="js-scrollTo" href="#Parcours"> Mon parcours </a>
 				<a class="js-scrollTo" href="#Projets"> Mes projets </a>
-				<!--<a href="#VeilleTechno"> Veille Technologique </a>-->
+				<!--<a class="js-scrollTo" href="#VeilleTechno"> Veille Technologique </a>-->
 				
-        	</div>
-    	</div>
+        
 	</nav>
+
+		</div>
+	
+	</div>
+
 		
 		
 		
