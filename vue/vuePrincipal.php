@@ -27,9 +27,9 @@
 		</div>
 
 	
-		<div class="row">
+		<div class="row text-center w-100">
 			
-				<div class="banner-area " style = "max-width: 100%;" >
+			
 		 
         
       	  			<div class="col" >	
@@ -46,7 +46,7 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
 								</div>
 		 	    	</div>
 		 	    		
-				</div>
+				
 		</div>
 	
 	
@@ -162,7 +162,7 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
 				
 			
 			
-			<div class="card p-2" style="width: 30rem;">
+			<div class="card p-2" >
   				<img class="card-img-top" src="images/php.png" alt="logo php/mysql">
   					<div class="card-body m-0">
   					
@@ -179,11 +179,11 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
   					</div>
 			</div>
 			
+		
 			
 			
 			
-			
-			<div class="card p-2" style="width: 30rem;">
+			<div class="card p-2" >
   				<img class="card-img-top" src="images/bootstrap3.png" alt="image de bootstrap">
   					<div class="card-body">
   					
@@ -201,7 +201,7 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
 			</div>
 			
 			
-			<div class="card p-2" style="width: 30rem;">
+			<div class="card p-2">
   				<img class="card-img-top" src="images/android2.png" alt="image d'applications android">
   					<div class="card-body">
   					
@@ -222,7 +222,7 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
 		
 			
 			
-			<div class="card p-2" style="width: 30rem;">
+			<div class="card p-2">
   				<img class="card-img-top" src="images/code-cafe.png" alt="image de code sur un pc portable">
   					<div class="card-body">
   					
@@ -243,6 +243,9 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
 		</div>
 
 	 </div>
+
+
+
 </div>
 		
 		
