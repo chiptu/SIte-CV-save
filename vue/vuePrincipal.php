@@ -112,6 +112,10 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
                         <div class="card-body">
                             <h5 class="card-title"><img src = "images/experience.png" alt = "Logo de Malette">&nbsp;&nbsp;Expériences</h5>
                             <ul class="list-group list-group-flush">
+								<li class="list-group-item">
+                                    <p class="card-text"><strong>Janvier 2020 (2 Mois) - Skilliance Group</strong></p>
+                                    <p class="card-text">Un projet Laravel, Bootstrap, PhpOffice. Un projet ReactJS, Tailwind.</p>
+                                </li>
                                 <li class="list-group-item">
                                     <p class="card-text"><strong>Juin 2019 (1 Mois) - Bordeaux Métropole</strong></p>
                                     <p class="card-text">Automatisation de processus ITIL et sensibilisation aux méthodes agiles</p>
@@ -228,7 +232,7 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
   					
    						 <h5 class="card-title">Petits projets,travaux</h5>
     					 <p class="card-text">Pendu , démineur , échec, from scratch jouable en ligne de commande en python.
-						 TP scolaire Java POO. Application .exe pour envoyer des mails en C#.</p>
+						 TP scolaire Java POO. Application windows pour envoyer des mails en C#.</p>
     					 
     					 <div class = "text-center">
     					 	<a href="vue/docTravaux.php" class="btn btn-primary m-2">Voir la doc</a><a href="#" class="btn btn-primary m-2">Voir le code</a>

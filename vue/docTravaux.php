@@ -44,7 +44,7 @@
 		
 	<br>
 	
-	<h1>Petits projets / Travaux</h1>
+	<h1>Petits projets, Travaux</h1>
 	
 	
 	
