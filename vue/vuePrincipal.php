@@ -91,17 +91,20 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">
                                     <p class="card-text"><strong>FrontEnd</strong></p>
-                                    <p class="card-text"> HTML,CSS et Bootstrap niveau intermédiaire</p>
+                                    <p class="card-text"> HTML,CSS et Bootstrap niveau intermédiaire , des notions en Tailwind</p>
                                 </li>
                                 <li class="list-group-item">
                                     <p class="card-text"><strong>Backend</strong></p>
-                                    <p class="card-text">PHP objet , CRUD, au format MVC</p>
+                                    <p class="card-text">PHP objet , au format MVC (plus routeur dans laravel) </p>
+                                </li>
+								<li class="list-group-item">
+                                    <p class="card-text"><strong>Framework</strong></p>
+                                    <p class="card-text">Laravel, ReactJS , AndroidStudio </p>
                                 </li>
                                 <li class="list-group-item">
                                     <p class="card-text"><strong>Autres compétences</strong></p>
-                                    <p class="card-text">Java orienté objet, Android Studio</p>
-                                    <p class="card-text">Gestion de projet (Git,Trello)</p>
-                                    <p class="card-text">Création et adaption de base de données SQL</p>
+									<p class="card-text">Javascript pour ReactJS, Java pour AndroidStudio</p>
+                                    <p class="card-text">Gestion de BDD (SQL), gestion de projet (Git,Trello)</p>
                                 </li>
                             </ul>
                         </div>
@@ -114,7 +117,7 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
                             <ul class="list-group list-group-flush">
 								<li class="list-group-item">
                                     <p class="card-text"><strong>Janvier 2020 (2 Mois) - Skilliance Group</strong></p>
-                                    <p class="card-text">Un projet Laravel, Bootstrap, PhpOffice. Un projet ReactJS, Tailwind.</p>
+                                    <p class="card-text">Premier projet avec Laravel, Bootstrap, PhpOffice. Second avec ReactJS, Tailwind.</p>
                                 </li>
                                 <li class="list-group-item">
                                     <p class="card-text"><strong>Juin 2019 (1 Mois) - Bordeaux Métropole</strong></p>

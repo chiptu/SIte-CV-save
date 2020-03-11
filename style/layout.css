@@ -36,7 +36,7 @@ body
 .text-nav
 {
 	text-align: center; 
-	text-color: white;
+	
 }
 
 /* Pour que l image soit responsiv */
@@ -182,7 +182,7 @@ h1
 
 .container 
 {
-	height:4000px;
+	height:7000px;
 }
 
 .container p
@@ -211,10 +211,7 @@ h1
 	margin-left: 0em;
 }
 
-#lien a
-{
-  
-}
+
 
 
 

@@ -127,7 +127,7 @@
      			 
      			 <img class="picture h-5 m-4 w-75 rounded"
     			 src="../images/doc/ImgSiteCV/ButtonBootstrap.png"
-     			 alt="Rendu de l example ci dessus bootstrap">
+     			 alt="Rendu de l exemple ci dessus bootstrap">
      			 
      			 <br>
      			 
@@ -155,7 +155,17 @@
 				<a id ="lien"class="text-primary d-inline ml-0" href="https://www.woorank.com/fr/www/leguilloualexandre.fr">ici</a>.<br><br>
 				J'ai regroupé ces critères en 4 parties que voici :<br><br></div>
 
-				<div class ="ph4">-Balises indicatives (meta données / og ) 
+				<div class ="ph4">- Les balises meta qui servent à renseigner des données connexes
+				 au site ou des données de mise en forme pour partager site pour les réseaux sociaux.   
+				 Dans les données connexes on va retrouver la description , l'auteur , les mots clés du site.</div><br>
+
+				 <img class="picture text-center rounded w-75 ml-5"
+    			 src="../images/doc/ImgSiteCV/meta.png"
+     			 alt="Rendu de l exemple ci dessus bootstrap">
+     			 
+     			 <br>
+				
+				<div class ="ph4">
 				<br><br>-UX (mise en cache)/Mobile/Sécurité 
 				<br><br>-Importance [Trafic/Liens(dont Réseaux sociaux et outil analyse)] 
 				<br><br>-Norme d'indexation (Robot.txt/Sitemap.xml/page 404) </div><br>
