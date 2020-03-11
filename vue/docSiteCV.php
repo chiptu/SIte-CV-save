@@ -47,7 +47,7 @@
        		 	<a class="js-scrollTo" href="#1">BootStrap/Jquery</a><br>
        		 	<a class="js-scrollTo" href="#2">SEO</a><br>
        		 	<a class="js-scrollTo" href="#3">Hébergement</a><br>
-       		 	<a href="http://127.0.0.1/Site_CV2/#Projets"> Revenir aux projets </a>
+       		 	<a href="https://leguilloualexandre.fr#Projets">  Revenir aux projets </a>
        		 	
        		 	
 		
