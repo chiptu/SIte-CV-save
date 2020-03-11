@@ -180,6 +180,7 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
     					 <div class = "text-center">
     					 	<a href="vue/docBioRelai.php" class="btn btn-primary m-2">Voir la doc</a><a href="#" class="btn btn-primary m-2">Voir le code</a>
     					 </div>
+						 <h3 class="text-center font-weight-bold text-danger"><u>Non rédigé</u></h2>
    						 
    						 
    					
@@ -202,7 +203,7 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
     					 	<a href="vue/docSiteCV.php" class="btn btn-primary m-2">Voir la doc</a><a href="https://github.com/chiptu/SiteCV" class="btn btn-primary m-2">Voir le code</a>
     					 </div>
    						 
-   						 
+						 <h3 class="text-center font-weight-bold text-success"><u>En cours de rédaction</u></h2>
    					
   					</div>
 			</div>
@@ -220,6 +221,8 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
     					 <div class = "text-center">
     					 	<a href="vue/docLeBarbu.php" class="btn btn-primary m-2">Voir la doc</a><a href="#" class="btn btn-primary m-2">Voir le code</a>
     					 </div>
+
+						 <h3 class="text-center font-weight-bold text-warning"><u>Projet en cours</u></h2>
    						 
    						 
    					
@@ -238,10 +241,10 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
 						 TP scolaire Java POO. Application windows pour envoyer des mails en C#.</p>
     					 
     					 <div class = "text-center">
-    					 	<a href="vue/docTravaux.php" class="btn btn-primary m-2">Voir la doc</a><a href="#" class="btn btn-primary m-2">Voir le code</a>
+    					 	<a href="vue/docTravaux.php" class="btn btn-primary m-2 ">Voir la doc</a><a href="#" class="btn btn-primary m-2">Voir le code</a>
     					 </div>
    						 
-   						 
+						 <h3 class="text-center font-weight-bold text-danger"><u>Non rédigé</u></h2>
    					
   					</div>
 			</div>

@@ -140,8 +140,71 @@
 				 
 				 
 				
-				
 				<h4 id ="1-1">Exemples d'éléments</h4><br>
+
+
+				<div class = "ph4">Les exemple que je vais montrer ici sont issues d'un projet d'entreprise de mon stage de 2eme année de BTS SIO.
+				Sans bootstrap ils nécessitent du javascript,html,css. Pour commencer voici un bouton supprimer qui pour éviter les suppressions accidentelles
+				déclenche un popup (modal) avec deux boutons supplémentaires.</div>
+				
+				<div class = "ph4">
+				<img class="picture  w-100 rounded mt-3 mb-5"
+    			 src="../images/doc/ImgSiteCV/popup.png"
+     			 alt="Popup issue de bootstrap">
+
+				
+
+				  <img class="picture  w-100 rounded mb-3"
+    			 src="../images/doc/ImgSiteCV/popup2.png"
+     			 alt="Popup issue de bootstrap">
+				
+
+				<img class="picture  w-100 rounded mb-3"
+    			 src="../images/doc/ImgSiteCV/CodePopUp.png"
+     			 alt="Popup issue de bootstrap">
+				<br><br>
+				  En élément qui dénote j'ai fait aussi des éléments "accordéons" avec bootstrap que voici. Le code contient aussi du php 
+				  , l affichage est généré dynamiquement.
+				  </div><br><br>
+
+				  <div class = "ph4">
+
+				  <img class="picture  w-100 rounded mb-3"
+    			 src="../images/doc/ImgSiteCV/accordeons.png"
+     			 alt="Popup issue de bootstrap">
+
+				  <img class="picture w-100 rounded mb-3"
+    			 src="../images/doc/ImgSiteCV/accordeons2.png"
+     			 alt="Popup issue de bootstrap">
+
+				  <img class="picture h-75 w-100 rounded mb-3"
+    			 src="../images/doc/ImgSiteCV/codeAccordeon.png"
+     			 alt="Popup issue de bootstrap">
+
+				  <br><br>
+				Le dernier exemple est celui de la navbar sur mon site qui se transforme en bouton dropdown , en plus
+				de ne pas rajouter du javascript, css , l'élément est responsiv et se déclenche uniquement sur un écran de largeur de smartphone 
+				  </div><br><br>
+
+				  <div class = "ph4">
+
+				  <img class="picture w-100 rounded mb-3"
+    			 src="../images/doc/ImgSiteCV/navPc.png"
+     			 alt="Popup issue de bootstrap">
+
+				  <img class="picture w-100 rounded mb-3"
+    			 src="../images/doc/ImgSiteCV/nav.png"
+     			 alt="Popup issue de bootstrap">
+
+				  <img class="picture w-100 rounded mb-3"
+    			 src="../images/doc/ImgSiteCV/navCollapse.png"
+     			 alt="Popup issue de bootstrap">
+
+				  <img class="picture w-100 rounded mb-3"
+    			 src="../images/doc/ImgSiteCV/codeNav.png"
+     			 alt="Popup issue de bootstrap">
+				  </div>
+
 			
 			<h2 id ="2" class="pt-5">SEO</h2><br>
 				<p>	SEO est l'acronyme de Search Engine Optimization ce qui correspond à l'optimisation pour les moteurs de recherche.
@@ -161,7 +224,7 @@
 
 				 <img class="picture text-center rounded w-75 ml-5"
     			 src="../images/doc/ImgSiteCV/meta.png"
-     			 alt="Rendu de l exemple ci dessus bootstrap">
+     			 alt="Exemple de code de meta données">
      			 
      			 <br>
 				
