@@ -27,6 +27,8 @@
 		
 		<script src="../style/bootstrap-4.3.1/dist/js/bootstrap.min.js"></script>
 
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
 </head>
 
 <body>
