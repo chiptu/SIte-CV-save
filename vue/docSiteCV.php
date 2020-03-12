@@ -49,7 +49,7 @@
        		 	<a class="js-scrollTo" href="#1">BootStrap/Jquery</a><br>
        		 	<a class="js-scrollTo" href="#2">SEO</a><br>
        		 	<a class="js-scrollTo" href="#3">Hébergement</a><br>
-       		 	<a href="http://127.0.0.1/Site_CV2/#Projets"> Revenir aux projets </a>
+       		 	<a href="https://leguilloualexandre.fr#Projets">  Revenir aux projets </a>
        		 	
        		 	
 		
@@ -69,7 +69,7 @@
 	<div class ="col-12">
 
 
-		<div class = "container bg-white" id="doc">
+		<div class = "container bg-white h-100" id="doc">
 		
 			<br>
 
@@ -106,8 +106,34 @@
 				<img class="picture h-5 m-4 w-75 p-5 rounded"
     			 src="../images/doc/ImgSiteCV/bootstrap12.png"
      			 alt="Exemple row col bootstrap">
+
+				  <div class ="ph4">Cette 'grille' de bootstrap est basé sur les éléments css flexbox qui peuvent être vue comme des
+				  conteneurs responsiv ( qui s'adaptent à l'écran), ces conteneurs permettent de faire le squelette de la mise en forme.
+				  Voici un exemple de grilles flexbox et sa traduction en bootstrap. </div>
+
+				  <img class="picture h-5 m-4 w-50 rounded"
+    			 src="../images/doc/ImgSiteCV/flexbox.png"
+     			 alt="Socials icons version pc"><br>
+
+				  <img class="picture h-5 m-4 w-50 rounded"
+    			 src="../images/doc/ImgSiteCV/ExFlex2.png"
+     			 alt="Socials icons version pc"><br>
+
+				  <img class="picture h-5 m-4 w-50 rounded"
+    			 src="../images/doc/ImgSiteCV/exFlex.png"
+     			 alt="Socials icons version pc"><br><br>
+
+					
+				  <div class ="ph4">Comme on peut le voir ci-dessus j'ai essayé de recréer cette disposition de flexbox , on a donc une ligne et une colonne 12 
+				  (12 est le maximum de la largeur de la grille, donc équivaut à une largeur de 100%).<br><br> Dans ce rectangle on va recréer une ligne et la diviser
+				  en 2 (noir /vert) puis du côté vert à droite on crée 3 lignes , la ligne centrale sera divisé en 2 colonnes (bleu/rouge)
+				  <br><br> Ici je n'ai pas mis de css et malheureusement bootstrap ne permet pas de découper la hauteur en élement de 33% de la hauteur du parent 
+				  (bootstrap accepte 25/50/75/100%).
+				  C'est pourquoi bootstrap ne remplace absolument pas le css.</div><br><br>
+				  
+
 				
-				 <div class ="ph4">De manière assez basique les colonnes et les éléments de celles-ci vont s'aligner verticalement si l'écran de l'utilisateur n'est pas assez large.
+				 <div class ="ph4">De manière assez basique les colonnes et les éléments d'une ligne vont s'aligner verticalement si l'écran de l'utilisateur n'est pas assez large.
 				 Par exemple voici la fin de mon site en version pc et en version mobile.</div><br>
 				 
 				 
@@ -206,6 +232,11 @@
     			 src="../images/doc/ImgSiteCV/codeNav.png"
      			 alt="Popup issue de bootstrap">
 				  </div>
+
+				 <br><br> <div class ="ph4"><u class="font-weight-bold">En résumé:</u> BootStrap en s'appuyant sur les flexbox nous permet de mettre un squelette à notre mise en forme
+				  qui s'adaptera aux largeurs d'écrans. Aussi BootStrap permet de générer facilement des éléments qui nécessiteraient plus de codes
+				  PopUp , Accordéons , Dropdowns et aussi des éléments en tout genre boutons , barre de navigation , barres de progrès...
+				  Ces éléments peuvent se transformer selon la taille de l'écran (exemple ma barre de navigation).</div><br>
 
 			
 			<h2 id ="2" class="pt-5">SEO</h2><br>

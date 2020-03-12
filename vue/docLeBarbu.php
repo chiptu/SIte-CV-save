@@ -36,7 +36,7 @@
     	
        		 <div class="navbar-nav mx-auto">
        		 	
-       		 	<a href="http://127.0.0.1/Site_CV2/#Projets"> Revenir aux projets </a>
+       		 	<a href="https://leguilloualexandre.fr#Projets">  Revenir aux projets </a>
             	
 				
 				
@@ -45,7 +45,7 @@
 	</nav>
 	
 	
-	<div class = "container bg-white" id="doc">
+	<div class = "container h-100 bg-white" id="doc">
 		
 	<br>
 	
@@ -53,4 +53,6 @@
 	
 	
 	
+	
+
 	</div>
