@@ -98,9 +98,10 @@
 				 Bootstrap est initialement un outil interne à twitter qui est passé en open source en 2011 
 				 et qui est devenue le projet le plus populaire de Github en 2012.</p><br>
 			
-				<h4 id ="1-1">Base de bootstrap</h4><br>
+				<h4>Base de bootstrap</h4><br>
 				
-				<div class ="ph4">Tout d'abord bootstrap possède une logique de travail par grille où l'on va définir dans les div du html des lignes (row) et des colonnes (col), une ligne peut contenir au maximum
+				<div class ="ph4">Tout d'abord bootstrap possède une logique de travail par grille où l'on va définir dans les classes
+				des éléments du html des lignes (row) et des colonnes (col), une ligne peut contenir au maximum
 				12 colonnes, on peut faire des colonnes spécifiques à certain formats d'écrans.</div>
 				
 				<img class="picture h-5 m-4 w-75 p-5 rounded"
@@ -109,7 +110,7 @@
 
 				  <div class ="ph4">Cette 'grille' de bootstrap est basé sur les éléments css flexbox qui peuvent être vue comme des
 				  conteneurs responsiv ( qui s'adaptent à l'écran), ces conteneurs permettent de faire le squelette de la mise en forme.
-				  Voici un exemple de grilles flexbox et sa traduction en bootstrap. </div>
+				  Voici un exemple d'une grille de flexbox et sa traduction en bootstrap. </div>
 
 				  <img class="picture h-5 m-4 w-50 rounded"
     			 src="../images/doc/ImgSiteCV/flexbox.png"
@@ -146,7 +147,8 @@
      			 alt="Socials icons version mobile">
      			 
      			 
-     			 <div class ="ph4">Bootstrap va aussi permettre de mettre dans les div du html de la mise en forme qui normalement aurait été dans le css
+     			 <div class ="ph4">Bootstrap va aussi permettre de mettre dans les classes des 
+				  éléments du html de la mise en forme qui normalement aurait été dans le css
      			 comme le margin , padding , couleurs, taille de l'élément et aussi son emplacement dans la grille ...<br></div>
      			 
      			  <img class="picture h-5 m-4 w-75 rounded pr-5 pl-5"
@@ -168,7 +170,7 @@
 				 
 				 
 				
-				<h4 id ="1-1">Exemples d'éléments</h4><br>
+				<h4>Exemples d'éléments</h4><br>
 
 
 				<div class = "ph4">Les exemple que je vais montrer ici sont issues d'un projet d'entreprise de mon stage de 2eme année de BTS SIO.
@@ -244,7 +246,7 @@
 				Cette optimisation est un ensemble de critère sur lesquels (Google, DuckDuckGo, Qwant, Yahoo...) vont indexer les sites en fonction
 				de la recherche de l'utilisateur. </p><br>
 
-				<h4 id ="1-1">Les critères</h4><br>
+				<h4>Les critères</h4><br>
 
 				<div class ="ph4"> Il existe de nombreux sites qui listent les critères d'optimisations pour les moteurs de recherche j'en ai comparé 
 				plusieurs et woorank me semble le plus claire, vous pouvez retrouvez l'analyse de mon site sur woorank en cliquant
@@ -255,22 +257,66 @@
 				 au site ou des données de mise en forme pour partager site pour les réseaux sociaux.   
 				 Dans les données connexes on va retrouver la description , l'auteur , les mots clés du site.</div><br>
 
-				 <img class="picture text-center rounded w-75 ml-5"
+				 <img class="picture  rounded w-75 ml-5 "
     			 src="../images/doc/ImgSiteCV/meta.png"
      			 alt="Exemple de code de meta données">
      			 
      			 <br>
 				
 				<div class ="ph4">
-				<br><br>-UX (mise en cache)/Mobile/Sécurité 
+				<br><br>-L'expérience utilisateur (UX) va être évalué sur plusieurs points. Le
+				premier est si le site s'adapte à tous les écrans (pc/tablettes/mobiles).</div>
+
+				<img class="picture  rounded w-75 mx-5 px-5"
+    			 src="../images/doc/ImgSiteCV/woorankResponsiv.png"
+     			 alt="Affichage responsiv woorank"><br><br>
+				
+				<div class ="ph4">
+
+				On peut voir que mon site fait défaut sur certains éléments qui sortent de l'écran. Je ne sais pas lesquels en particulier.
+				Par contre dans mon css j'ai dû mettre un overflow-hidden (débordement caché) car je ne sais pas pourquoi mais ma barre de 
+				navigation engendrait une marge , un espace vide à sa droite (qu'on retrouve sur mobile).<br><br>
+
+				Toujours dans l'expérience utilisateur on a la vitesse de chargement du site qui va se traduire par une compression
+				des ressources utilisés et une mise en cache optimisé des ressources.</div>
+
+				<img class="picture  rounded w-75 mx-5 px-5"
+    			 src="../images/doc/ImgSiteCV/woorankPerformance.png"
+     			 alt="Performance de rechargement woorank"><br><br>
+
+
+				  <div class ="ph4">Cependant même si mon site n'est pas optimal au niveau de la gestion de ressources vu q'il y a 
+				  peu d'éléments à charger les temps de réponses sont bons.
+				  </div><br><br>
+
+				  <img class="picture  rounded w-75 mx-5 px-5"
+    			 src="../images/doc/ImgSiteCV/vitesseSite.png"
+     			 alt="Vitesse de chargement de mon site"><br><br>
+
+				  <div class ="ph4">
+				 Le dernier élément de l'expérience utilisateur est celui de la sécurité ce qui se traduit sur mon site par le passage
+				  du http au https qui permet donc de sécuriser l'échange de données entre l'utilisateur et le serveur via un chiffrement hybride
+				  et un certificat donné par un tiers de confiance. <br><br>
+				  J'ai mis cet élément dans l'expérience utilisateur car les navigateurs , proxy d'entreprise bloque de plus en plus
+				  les sites qui n'ont pas de certificat ssl.<br><br>
+
+				  J'ai un certificat SSL gratuit fournit par Let's Encrypt, j'ai configuré mon hébergement de manière à ce que les 
+				  requêtes http soient redirigés en https et qu'il ne puisse y a voir de http sur mon site (principe de HSTS).
+					</div><br>
+
+				 <img class="picture rounded w-75 mx-5 px-5"
+    			 src="../images/doc/ImgSiteCV/woorankSSL.png"
+     			 alt="Analyse woorank SSL"><br><br>
+
+				<div class ="ph4">
 				<br><br>-Importance [Trafic/Liens(dont Réseaux sociaux et outil analyse)] 
 				<br><br>-Norme d'indexation (Robot.txt/Sitemap.xml/page 404) </div><br>
 				
 
-				<h4 id ="1-1">Exemple de mon site</h4><br>
+				
 			
 			<h2 id ="3" class="pt-5">Hébergement</h2><br>
-				<h4 id ="1-1">Configuration serveur</h4><br>
+				<h4>Configuration serveur</h4><br>
 	
 	      
 	       
