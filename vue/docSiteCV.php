@@ -27,7 +27,9 @@
 		
 		<script src="../style/bootstrap-4.3.1/dist/js/bootstrap.min.js"></script>
 
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> -->
+
+		<title>Site CV Le Guillou Alexandre BTS SIO 2nde année </title>
 
 </head>
 
@@ -80,11 +82,11 @@
 				<p>Ce que j'ai appris en faisant mon site CV n'est pas lié réellement aux langages de programmations à
 				 proprement dis mais ce qui l'entoure (mise en forme , indexation google, hébergement).</p>
 				<p>J'ai codé ce site en utilisant pour seul librairie/framework bootstrap qui permet d'avoir des éléments 
-				responsiv (les éléments s'adaptent au format pc/tablette/mobile).
-				 BootStrap inclut Jquery qui est une librairie de JavaScript permettant de rendre des éléments html dynamiques (boutons , collapses...).</p>
+				responsiv (les éléments s'adaptent au format pc, tablette, mobile).
+				 BootStrap inclut Jquery qui est une librairie de JavaScript permettant de rendre des éléments html dynamiques (boutons ,dropdown ,collapses...).</p>
 				<p>Comme vous pouvez le voir ci-dessous l'arborescence du site est au format MVC (Modèle Vue Contrôleur) et
 				 le html est renvoyé par du php
-				alors que je n'utilise pas de modèle/contrôleur. En réalité c'est au cas où pour l'évolutivité du site et
+				alors que je n'utilise pas de modèle,contrôleur. En réalité c'est au cas où pour l'évolutivité du site et
 			    aussi je dois l'avouer que dans ma formation c'était devenu une habitude de commencer les projets comme cela.</p>
 			
 				<img class="picture h-3 m-4 w-25 rounded"
@@ -94,9 +96,9 @@
 			
 				<h2 class="pt-5" id ="1">BootStrap/Jquery</h2><br>
 				<p> Bootstrap est un framework/librairie de html/css et inclut même certains éléments de jquery (librairie en js pour dynamiser le html)
-				 comme des boutons pop up / collapses ....
+				 comme des boutons pop up , dropdown , collapses ....
 				 Bootstrap est initialement un outil interne à twitter qui est passé en open source en 2011 
-				 et qui est devenue le projet le plus populaire de Github en 2012.</p><br>
+				 et qui est devenu le projet le plus populaire de Github en 2012.</p><br>
 			
 				<h4>Base de bootstrap</h4><br>
 				
@@ -130,7 +132,9 @@
 				  en 2 (noir /vert) puis du côté vert à droite on crée 3 lignes , la ligne centrale sera divisé en 2 colonnes (bleu/rouge)
 				  <br><br> Ici je n'ai pas mis de css et malheureusement bootstrap ne permet pas de découper la hauteur en élement de 33% de la hauteur du parent 
 				  (bootstrap accepte 25/50/75/100%).
-				  C'est pourquoi bootstrap ne remplace absolument pas le css.</div><br><br>
+				  
+				  <br><br>C'est pourquoi on peut voir que mon conteneur bleu et rouge ne sont pas centrés contrairement à l'exemple de flexbox,
+				  cela montre aussi que bootstrap ne remplace absolument pas le css.</div><br><br>
 				  
 
 				
@@ -161,8 +165,8 @@
      			 
      			 <br>
      			 
-     			<div class ="ph4"> <i class ="w-50">Cette exemple est tiré d'un des projets de mon stage de 2 eme année on peut y voir la définition d'une ligne et la spécification de la répartition des éléments au sein de la ligne
-     			 ainsi que la définition des 2 boutons ainsi que leurs marges et couleurs</i></div><br><br>
+     			<div class ="ph4"> <i class ="w-50">Cette exemple montre la définition d'une ligne, la spécification de la répartition des éléments au sein de la ligne
+     			 ainsi que la définition des 2 boutons ainsi que leurs marges, couleurs</i></div><br><br>
      			 
      			
      			 
@@ -251,21 +255,13 @@
 				<div class ="ph4"> Il existe de nombreux sites qui listent les critères d'optimisations pour les moteurs de recherche j'en ai comparé 
 				plusieurs et woorank me semble le plus claire, vous pouvez retrouvez l'analyse de mon site sur woorank en cliquant
 				<a id ="lien"class="text-primary d-inline ml-0" href="https://www.woorank.com/fr/www/leguilloualexandre.fr">ici</a>.<br><br>
-				J'ai regroupé ces critères en 4 parties que voici :<br><br></div>
+				J'ai regroupé ces critères en 3 parties que voici :<br><br></div>
 
-				<div class ="ph4">- Les balises meta qui servent à renseigner des données connexes
-				 au site ou des données de mise en forme pour partager site pour les réseaux sociaux.   
-				 Dans les données connexes on va retrouver la description , l'auteur , les mots clés du site.</div><br>
-
-				 <img class="picture  rounded w-75 ml-5 "
-    			 src="../images/doc/ImgSiteCV/meta.png"
-     			 alt="Exemple de code de meta données">
-     			 
-     			 <br>
+				
 				
 				<div class ="ph4">
-				<br><br>-L'expérience utilisateur (UX) va être évalué sur plusieurs points. Le
-				premier est si le site s'adapte à tous les écrans (pc/tablettes/mobiles).</div>
+				<br><br><u>-L'expérience utilisateur</u> (UX) va être évalué sur plusieurs points. Le
+				premier est l'adaptation du site à tous les écrans (pc, tablettes, mobiles).</div>
 
 				<img class="picture  rounded w-75 mx-5 px-5"
     			 src="../images/doc/ImgSiteCV/woorankResponsiv.png"
@@ -297,20 +293,33 @@
 				 Le dernier élément de l'expérience utilisateur est celui de la sécurité ce qui se traduit sur mon site par le passage
 				  du http au https qui permet donc de sécuriser l'échange de données entre l'utilisateur et le serveur via un chiffrement hybride
 				  et un certificat donné par un tiers de confiance. <br><br>
-				  J'ai mis cet élément dans l'expérience utilisateur car les navigateurs , proxy d'entreprise bloque de plus en plus
+				  J'ai mis cet élément dans l'expérience utilisateur car les navigateurs , proxy d'entreprise bloquent de plus en plus
 				  les sites qui n'ont pas de certificat ssl.<br><br>
 
 				  J'ai un certificat SSL gratuit fournit par Let's Encrypt, j'ai configuré mon hébergement de manière à ce que les 
-				  requêtes http soient redirigés en https et qu'il ne puisse y a voir de http sur mon site (principe de HSTS).
+				  requêtes http soient redirigés en https et qu'il ne puisse y avoir de requête http traité sur mon site (principe de HSTS).
 					</div><br>
 
 				 <img class="picture rounded w-75 mx-5 px-5"
     			 src="../images/doc/ImgSiteCV/woorankSSL.png"
      			 alt="Analyse woorank SSL"><br><br>
 
+				  <div class ="ph4"><u>- Les normes d'indexation</u>. Ce deuxième critère est directement destiné aux moteurs de 
+				  recherches. Tout d'abord les balises meta vont servir aux moteurs de recherches à renseigner des données connexes
+				 au site ou des données de mise en forme pour partager le site.   <br><br>
+				 Dans les données connexes on va retrouver la description , l'auteur , les mots clés du site, la mise en forme du partage pour les réseaux sociaux
+				 (twitter, linkedin , facebook...). (Robot.txt/Sitemap.xml/page 404) </div><br>
+
+				 <img class="picture  rounded w-75 ml-5 "
+    			 src="../images/doc/ImgSiteCV/meta.png"
+     			 alt="Exemple de code de meta données">
+     			 
+     			 <br>
+
 				<div class ="ph4">
 				<br><br>-Importance [Trafic/Liens(dont Réseaux sociaux et outil analyse)] 
-				<br><br>-Norme d'indexation (Robot.txt/Sitemap.xml/page 404) </div><br>
+				
+				</div><br>
 				
 
 				
