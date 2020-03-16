@@ -200,7 +200,7 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
 						 (Framework/Librairie de HTML/CSS/JS qui permet d'avoir des éléments responsiv).</p>
     					 
     					 <div class = "text-center">
-    					 	<a href="vue/docSiteCV.php" class="btn btn-primary m-2">Voir la doc</a><a href="https://github.com/chiptu/SiteCV" class="btn btn-primary m-2">Voir le code</a>
+    					 	<a href="vue/docSiteCV.php" class="btn btn-primary m-2">Voir la doc</a><a href="https://github.com/chiptu/SIte-CV-save" class="btn btn-primary m-2">Voir le code</a>
     					 </div>
    						 
 						 <h3 class="text-center font-weight-bold text-success"><u>En cours de rédaction</u></h2>

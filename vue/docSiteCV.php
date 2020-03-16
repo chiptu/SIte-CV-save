@@ -85,9 +85,7 @@
 				responsiv (les éléments s'adaptent au format pc, tablette, mobile).
 				 BootStrap inclut Jquery qui est une librairie de JavaScript permettant de rendre des éléments html dynamiques (boutons ,dropdown ,collapses...).</p>
 				<p>Comme vous pouvez le voir ci-dessous l'arborescence du site est au format MVC (Modèle Vue Contrôleur) et
-				 le html est renvoyé par du php
-				alors que je n'utilise pas de modèle,contrôleur. En réalité c'est au cas où pour l'évolutivité du site et
-			    aussi je dois l'avouer que dans ma formation c'était devenu une habitude de commencer les projets comme cela.</p>
+				 le html est renvoyé par du php.</p>
 			
 				<img class="picture h-3 m-4 w-25 rounded"
     			 src="../images/doc/ImgSiteCV/arbo.png"
@@ -305,15 +303,48 @@
      			 alt="Analyse woorank SSL"><br><br>
 
 				  <div class ="ph4"><u>- Les normes d'indexation</u>. Ce deuxième critère est directement destiné aux moteurs de 
-				  recherches. Tout d'abord les balises meta vont servir aux moteurs de recherches à renseigner des données connexes
+				  recherches.<br><br> Tout d'abord les balises meta vont servir aux moteurs de recherches à renseigner des données connexes
 				 au site ou des données de mise en forme pour partager le site.   <br><br>
 				 Dans les données connexes on va retrouver la description , l'auteur , les mots clés du site, la mise en forme du partage pour les réseaux sociaux
-				 (twitter, linkedin , facebook...). (Robot.txt/Sitemap.xml/page 404) </div><br>
+				 (twitter, linkedin , facebook...). (page 404) </div><br>
 
 				 <img class="picture  rounded w-75 ml-5 "
     			 src="../images/doc/ImgSiteCV/meta.png"
-     			 alt="Exemple de code de meta données">
+     			 alt="Exemple de code de meta données"><br><br>
      			 
+				  <div class ="ph4"> Ensuite on a l'ajout de fichiers pour les moteurs de recherches, 
+				  ceux-ci ont des algorithmes qui en permancence analysent les sites web 
+				  et vont chercher à la racine du site la présence d'un fichier robots.txt . Ce fichier va servir à renseigner des informations
+				  complémentaire pour l'analyse du site. <br><br> Dans mon cas ce fichier robots.txt m'a servi à renseigner le chemin d'accès de 
+				  mon Sitemap.xml. Le fichier Sitemap.xml est la liste des liens, pages que contient le site .<br> 
+				  Si les algorithmes n'ont pas ce fichier ils sont suceptibles de ne pas analyser certaines pages du site.  </div><br><br>
+
+				  <img class="picture  rounded w-50  "
+    			 src="../images/doc/ImgSiteCV/robotsTxt.png"
+     			 alt="Fichier texte pour les robots google"><br><br>
+
+
+				  <img class="picture  rounded w-50 "
+    			 src="../images/doc/ImgSiteCV/SitemapXml.png"
+     			 alt="Sitemap.xml de mon site"><br><br>
+
+
+				  <div class ="ph4">Enfin via le Sitemap.xml ou en mettant une fausse url à la fin du site , les moteurs de recherches vont vérifier
+				  la présence de pages d'erreurs personalisés comme la plus répandue erreur 404 ressource non trouvé bien qu'il en existe d'autres  
+				  (400 mauvaise requête : le serveur ne comprend pas la requête client, 403 accès interdit : le client n'a pas les droits d'accès à la ressource ...)
+				  <br><br> Voici donc une erreur par défaut d'un serveur ubuntu et celle personalisé de mon site.
+				   </div><br>
+
+				   <img class="picture  rounded w-75 mx-5 px-5"
+    			 src="../images/doc/ImgSiteCV/404.png"
+     			 alt="Erreur 404 de base d apache"><br><br>
+
+
+				  <img class="picture  rounded w-75 mx-5 px-5"
+    			 src="../images/doc/ImgSiteCV/4042.png"
+     			 alt="Erreur 404 personalisé"><br><br>
+
+
      			 <br>
 
 				<div class ="ph4">
