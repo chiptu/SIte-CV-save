@@ -348,11 +348,48 @@
      			 <br>
 
 				<div class ="ph4">
-				<br><br>-Importance [Trafic/Liens(dont Réseaux sociaux et outil analyse)] 
+				<br><br>-La popularité et les outils d'analyses d'un site sont les derniers critères d'indexation .<br><br>
+				Pour la fréquentation, la popularité du site sur les réseaux sociaux et l'engagement que le site suscite (j'aime, retweet ...) 
+				sont pris en compte.
+				Ainsi que les 'backlinks' c'est à dire le nombre de liens renvoyant vers mon site depuis des sites différents.<br><br>
+
+				Sur mon site pour consulter le nombre de visiteurs et les données associés (type d'appareil, nationalité ...) 
+				j'utilise google analytics.<br><br>
+				Ce service de google est gratuit et il suffit de mettre un simple code javascript au début de son site.
+
 				
 				</div><br>
-				
 
+				<img class="picture  rounded w-75 mx-5 px-5"
+    			 src="../images/doc/ImgSiteCV/GoogleAnalytics.png"
+     			 alt="Code Google Analytics"><br><br>
+				
+				<div class ="ph4">
+				  Voici à quoi ressemple le tableau de bord de Google Analytics , on notera que pour pouvoir accéder à des informations plus précises
+				  sur les utilisateurs (âge ,sexe...), il faut activer les données publicitaires et mettre à jour la politique de confidentialité du site.
+				</div><br>
+
+				<img class="picture  rounded w-75 mx-5 px-5"
+    			 src="../images/doc/ImgSiteCV/googleAnalytic.png"
+     			 alt="Interface Google Analytics"><br><br>
+
+				  <img class="picture  rounded w-75 mx-5 px-5"
+    			 src="../images/doc/ImgSiteCV/googleAnalytic2.png"
+     			 alt="Interface Google Analytics"><br><br>
+
+				  <div class ="ph4">
+				  En terme de fréquentation mon site est très mal noté vu qu'il n'a pas vocation a susciter l'engagement sur les réseaux sociaux et que les 
+				  utilisateurs sont des recruteurs ou des proches curieux.
+				  </div><br>
+
+				  <img class="picture  rounded w-75 mx-5 px-5"
+    			 src="../images/doc/ImgSiteCV/traffic.png"
+     			 alt="Notation traffic de mon site sur woorank"><br><br>
+
+
+				  <img class="picture  rounded w-75 mx-5 px-5"
+    			 src="../images/doc/ImgSiteCV/Socials.png"
+     			 alt="Notation engament sur les reseaux sociaux de mon site sur woorank"><br><br>
 				
 			
 			<h2 id ="3" class="pt-5">Hébergement</h2><br>
