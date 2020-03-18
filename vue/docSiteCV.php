@@ -251,7 +251,7 @@
 				<h4>Les critères</h4><br>
 
 				<div class ="ph4"> Il existe de nombreux sites qui listent les critères d'optimisations pour les moteurs de recherche j'en ai comparé 
-				plusieurs et woorank me semble le plus claire, vous pouvez retrouvez l'analyse de mon site sur woorank en cliquant
+				plusieurs et woorank me semble le plus claire, vous pouvez retrouver l'analyse de mon site sur woorank en cliquant
 				<a id ="lien"class="text-primary d-inline ml-0" href="https://www.woorank.com/fr/www/leguilloualexandre.fr">ici</a>.<br><br>
 				J'ai regroupé ces critères en 3 parties que voici :<br><br></div>
 
@@ -267,9 +267,7 @@
 				
 				<div class ="ph4">
 
-				On peut voir que mon site fait défaut sur certains éléments qui sortent de l'écran. Je ne sais pas lesquels en particulier.
-				Par contre dans mon css j'ai dû mettre un overflow-hidden (débordement caché) car je ne sais pas pourquoi mais ma barre de 
-				navigation engendrait une marge , un espace vide à sa droite (qu'on retrouve sur mobile).<br><br>
+				
 
 				Toujours dans l'expérience utilisateur on a la vitesse de chargement du site qui va se traduire par une compression
 				des ressources utilisés et une mise en cache optimisé des ressources.</div>
@@ -295,7 +293,7 @@
 				  les sites qui n'ont pas de certificat ssl.<br><br>
 
 				  J'ai un certificat SSL gratuit fournit par Let's Encrypt, j'ai configuré mon hébergement de manière à ce que les 
-				  requêtes http soient redirigés en https et qu'il ne puisse y avoir de requête http traité sur mon site (principe de HSTS).
+				  requêtes http soient redirigées en https et qu'il ne puisse y avoir de requête http traité sur mon site (principe de HSTS).
 					</div><br>
 
 				 <img class="picture rounded w-75 mx-5 px-5"
@@ -306,7 +304,7 @@
 				  recherches.<br><br> Tout d'abord les balises meta vont servir aux moteurs de recherches à renseigner des données connexes
 				 au site ou des données de mise en forme pour partager le site.   <br><br>
 				 Dans les données connexes on va retrouver la description , l'auteur , les mots clés du site, la mise en forme du partage pour les réseaux sociaux
-				 (twitter, linkedin , facebook...). (page 404) </div><br>
+				 (twitter, linkedin , facebook...).  </div><br>
 
 				 <img class="picture  rounded w-75 ml-5 "
     			 src="../images/doc/ImgSiteCV/meta.png"
@@ -348,7 +346,7 @@
      			 <br>
 
 				<div class ="ph4">
-				<br><br>-La popularité et les outils d'analyses d'un site sont les derniers critères d'indexation .<br><br>
+				<br><br><u>-La popularité et les outils d'analyses </u>d'un site sont les derniers critères d'indexation .<br><br>
 				Pour la fréquentation, la popularité du site sur les réseaux sociaux et l'engagement que le site suscite (j'aime, retweet ...) 
 				sont pris en compte.
 				Ainsi que les 'backlinks' c'est à dire le nombre de liens renvoyant vers mon site depuis des sites différents.<br><br>
@@ -390,6 +388,14 @@
 				  <img class="picture  rounded w-75 mx-5 px-5"
     			 src="../images/doc/ImgSiteCV/Socials.png"
      			 alt="Notation engament sur les reseaux sociaux de mon site sur woorank"><br><br>
+
+
+				<br><br> <div class ="ph4"><u class="font-weight-bold">En résumé:</u> Pour améliorer la visibilité d'un site sur les moteurs de recherche
+				il va falloir optimiser l'expérience utilisateur via une adaptation du site à toutes les interfaces, minimiser les ressources pour un temps
+				de chargement réduit et être en https.<br> Ensuite il faut respecter certaines normes d'indexation comme les balises meta, le fichier robots.txt et sitemap.xml,
+				des pages d'erreur personalisées.<br> Enfin la popularité du site, l'engagement qu'il suscite sur les réseaux sociaux et les outils d'analyses d'audience vont 
+				former la denière partie de l'optimisation pour les moteurs de recherche. 
+				</div><br>
 				
 			
 			<h2 id ="3" class="pt-5">Hébergement</h2><br>
