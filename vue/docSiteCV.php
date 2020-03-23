@@ -245,7 +245,7 @@
 			
 			<h2 id ="2" class="pt-5">SEO</h2><br>
 				<p>	SEO est l'acronyme de Search Engine Optimization ce qui correspond à l'optimisation pour les moteurs de recherche.
-				Cette optimisation est un ensemble de critère sur lesquels (Google, DuckDuckGo, Qwant, Yahoo...) vont indexer les sites en fonction
+				Cette optimisation est un ensemble de critères sur lesquels (Google, DuckDuckGo, Qwant, Yahoo...) vont indexer les sites en fonction
 				de la recherche de l'utilisateur. </p><br>
 
 				<h4>Les critères</h4><br>
@@ -399,8 +399,32 @@
 				
 			
 			<h2 id ="3" class="pt-5">Hébergement</h2><br>
-				<h4>Configuration serveur</h4><br>
-	
+			<p> Mon site est hébergé sur un serveur partagé ovh. J'accède à l'espace partagé via FTP (File Transfer Protocol) avec mot de passe et j'y 
+			retrouve la même arborescence que sur un serveur apache (www/site).</p>
+
+			<img class="picture rounded w-75 mx-5 px-4"
+    		 src="../images/doc/ImgSiteCV/www.png"
+     		 alt="arborescence apache ovh"><br><br>
+
+			<img class="picture rounded w-75 mx-5 px-4"
+    		 src="../images/doc/ImgSiteCV/www2.png"
+     		 alt="arborescence apache ovh"><br><br>
+
+			<p> Comme on peut le voir dans l'arborescence il y a deux fichiers essentiels à configurer qui sont 
+			ovhconfig et htaccess.<br><br> Pour le fichier ovhconfig j'ai mis simplement la technologie et la version à utiliser (php 7.3)
+			, ovh va sûrement traduire ses informations en commande linux apt get ...</p>
+
+			<img class="picture rounded w-75 mx-5 px-4"
+    		 src="../images/doc/ImgSiteCV/ovhconfig.png"
+     		 alt="arborescence apache ovh"><br><br>
+				
+			  <p> Le second fichier htaccess est le plus important , va permettre de configurer les redirections http vers le https 
+			  et la redirection de l'erreur serveur 404 (La ressource n'a pas été retrouvé) vers ma page personalisé. </p>
+
+			
+			  <img class="picture rounded w-75 mx-5 px-4"
+    		 src="../images/doc/ImgSiteCV/htaccess.png"
+     		 alt="arborescence apache ovh"><br><br>
 	      
 	       
 		</div>

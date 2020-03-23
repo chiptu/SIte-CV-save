@@ -203,7 +203,6 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
     					 	<a href="vue/docSiteCV.php" class="btn btn-primary m-2">Voir la doc</a><a href="https://github.com/chiptu/SIte-CV-save" class="btn btn-primary m-2">Voir le code</a>
     					 </div>
    						 
-						 <h3 class="text-center font-weight-bold text-success"><u>En cours de rédaction</u></h2>
    					
   					</div>
 			</div>
