@@ -51,6 +51,7 @@
        		 	<a class="js-scrollTo" href="#1">BootStrap/Jquery</a><br>
        		 	<a class="js-scrollTo" href="#2">SEO</a><br>
        		 	<a class="js-scrollTo" href="#3">Hébergement</a><br>
+				<a class="js-scrollTo" href="#Conclusion">Conclusion</a><br>
        		 	<a href="https://leguilloualexandre.fr#Projets">  Revenir aux projets </a>
        		 	
        		 	
@@ -424,7 +425,16 @@
 			
 			  <img class="picture rounded w-75 mx-5 px-4"
     		 src="../images/doc/ImgSiteCV/htaccess.png"
-     		 alt="arborescence apache ovh"><br><br>
+     		 alt="arborescence apache ovh"><br><br><br>
+
+			
+			  <h2 class="pt-5" id ="Conclusion">Conclusion</h2><br>
+
+			  <p>En définitive avec ce projet j'en ai plus appris sur la mise en forme , l indexation google et l'hébergement de site web.</p>
+				
+			<p>De plus je vais faire en sorte de maintenir mon site à jour et d'ajouter du contenu (veille technologique , plus de projets , améliorer la documentation de chaque projet...) 
+			pour que mon site puisse à la fois contribuer à mes travaux personnels , professionnelles , scolaires.</p><br><br><br><br><br><br><br><br><br><br>
+				
 	      
 	       
 		</div>
