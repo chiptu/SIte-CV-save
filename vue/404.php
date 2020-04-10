@@ -35,7 +35,7 @@ function getRandomInt(max)
 //window.alert() Pour print;
 
 
-var rand = getRandomInt(11);
+var rand = getRandomInt(15);
 
 
 
@@ -91,9 +91,29 @@ if (rand==10)
 	var nom_img = "bebe.gif"
 }
 
+if (rand==11)
+{
+	var nom_img = "codeHistorique.gif"
+}
+
+if (rand==12)
+{
+	var nom_img = "regex.gif"
+}
+
+if (rand==13)
+{
+	var nom_img = "windows.png"
+}
+
+if (rand==14)
+{
+	var nom_img = "Debug.jpeg"
+}
+
 var block = document.getElementById("meme");
 
-/// Pour les gifs un petit texte
+/// Pour les gifs avec un petit texte
 
 if (rand==6)
 {
@@ -119,6 +139,18 @@ if (rand==10)
 {
 	block.innerHTML += '<h2>Quand je pars prendre un café et que je me rappelle que je n ai pas verrouillé mon poste</h2> <br>';
 }
+
+if (rand==11)
+{
+	block.innerHTML += '<h2>Quand je redecouvre mon code </h2> <br>';
+}
+
+if (rand==12)
+{
+	block.innerHTML += '<h2>Quand on me demande de l aide sur une expression régulière  </h2> <br>';
+}
+
+
 
 
 var img = document.createElement("img");
