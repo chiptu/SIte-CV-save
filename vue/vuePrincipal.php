@@ -236,8 +236,8 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
   					<div class="card-body">
   					
    						 <h5 class="card-title">Petits projets,travaux</h5>
-    					 <p class="card-text">Pendu , démineur , échec, from scratch jouable en ligne de commande en python.
-						 TP scolaire Java POO. Application windows pour envoyer des mails en C#.</p>
+    					 <p class="card-text"> Des petits travaux dans différents langages, environnements. Jeux demineur, pendu, echec en python. Application windows pour envoyer des mail en C#.
+						  Programmation orienté objet en java.  </p>
     					 
     					 <div class = "text-center">
     					 	<a href="vue/docTravaux.php" class="btn btn-primary m-2 ">Voir la doc</a><a href="#" class="btn btn-primary m-2">Voir le code</a>
