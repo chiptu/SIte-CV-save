@@ -31,6 +31,8 @@
 
 		<title>Site CV Le Guillou Alexandre BTS SIO 2nde année </title>
 
+		
+
 </head>
 
 <body>
@@ -331,7 +333,7 @@
 				  <div class ="ph4">Enfin via le Sitemap.xml ou en mettant une fausse url à la fin du site , les moteurs de recherches vont vérifier
 				  la présence de pages d'erreurs personalisés comme la plus répandue erreur 404 ressource non trouvé bien qu'il en existe d'autres  
 				  (400 mauvaise requête : le serveur ne comprend pas la requête client, 403 accès interdit : le client n'a pas les droits d'accès à la ressource ...)
-				  <br><br> Voici donc une erreur par défaut d'un serveur ubuntu et celle personalisé de mon site.
+				  <br><br> Voici donc une erreur par défaut d'un serveur apache et celle personalisé de mon site.
 				   </div><br>
 
 				   <img class="picture  rounded w-75 mx-5 px-5"
