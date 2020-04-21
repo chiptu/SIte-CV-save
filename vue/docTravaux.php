@@ -48,7 +48,7 @@
        		 	
        		 	<a class="js-scrollTo" href="#Intro">Introduction</a><br>
        		 	<a class="js-scrollTo" href="#1">C#</a><br>
-       		 	<!--<a class="js-scrollTo" href="#2">Python</a><br>
+       		 	<!--<a class="js-scrollTo" href="#2">Pythontest</a><br>
        		 	<a class="js-scrollTo" href="#3">Java</a><br>-->
 				<a class="js-scrollTo" href="#Liens">Liens</a><br>
        		 	<a href="https://leguilloualexandre.fr#Projets">  Revenir aux projets </a>
