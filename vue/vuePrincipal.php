@@ -178,7 +178,7 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
 						  avec connexion, gestion de droits, méthodes d'ajouts, modifications et suppressions de données.</p>
     					 
     					 <div class = "text-center">
-    					 	<a href="vue/docBioRelai.php" class="btn btn-primary m-2">Voir la doc</a><a href="#" class="btn btn-primary m-2">Voir le code</a>
+    					 	<a href="#Projets" class="btn btn-primary m-2">Voir la doc</a><a href="#Projets" class="btn btn-primary m-2">Voir le code</a>
     					 </div>
 						 <h3 class="text-center font-weight-bold text-warning"><u>Non rédigé</u></h2>
    						 
@@ -218,7 +218,7 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
 						  est en Java avec une BDD Sqlite. </p>
     					 
     					 <div class = "text-center">
-    					 	<a href="vue/docLeBarbu.php" class="btn btn-primary m-2">Voir la doc</a><a href="#" class="btn btn-primary m-2">Voir le code</a>
+    					 	<a href="#Projets" class="btn btn-primary m-2">Voir la doc</a><a href="https://github.com/chiptu/AndroidBarbu" class="btn btn-primary m-2">Voir le code</a>
     					 </div>
 
 						 <h3 class="text-center font-weight-bold text-danger"><u>Projet en cours</u></h2>
