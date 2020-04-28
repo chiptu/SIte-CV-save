@@ -213,8 +213,8 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
   					<div class="card-body">
   					
    						 <h5 class="card-title">Le barbu</h5>
-    					 <p class="card-text">Le barbu est un jeu de cartes se jouant à plusieurs.L'application doit
-						  permettre d'y jouer mais aussi de modifier les règles si l'utilisateur le veut.L'application 
+    					 <p class="card-text">Le barbu est un jeu de cartes se jouant à plusieurs. L'application doit
+						  permettre d'y jouer mais aussi de modifier les règles si l'utilisateur le veut. L'application 
 						  est en Java avec une BDD Sqlite. </p>
     					 
     					 <div class = "text-center">
@@ -236,8 +236,8 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
   					<div class="card-body">
   					
    						 <h5 class="card-title">Petits projets,travaux</h5>
-    					 <p class="card-text"> Des petits travaux dans différents langages, environnements. Application windows pour envoyer des mail en C#. Jeux demineur, pendu, echec en python. 
-						  Programmation orienté objet en java.  </p>
+    					 <p class="card-text"> Des petits travaux dans différents langages, environnements. Application windows pour envoyer des mails en C#. Jeux démineur, pendu, echecs en python. 
+						  Programmation orientée objet en java.  </p>
     					 
     					 <div class = "text-center">
     					 	<a href="vue/docTravaux.php" class="btn btn-primary m-2 ">Voir la doc</a><a href="vue/docTravaux.php#Liens" class="btn btn-primary m-2">Voir le code</a>
