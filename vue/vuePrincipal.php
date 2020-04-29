@@ -36,6 +36,7 @@
 						
  						
 								<div class = "text">
+									<div class ="Tel">
 									
 								<br><br>
 							Je suis étudiant en deuxième année de BTS SIO (Services Informatiques aux Organisations), spécialité SLAM (Solutions Logicielles et applications métiers) au lycée Gustave Eiffel.<br> <br>
@@ -43,6 +44,7 @@ Passionné d’informatique et plus particulièrement de programmation, j’ai c
  A l’issue de ce BTS, je serai formé pour développer, adapter et maintenir des solutions applicatives. <br><br>
 Ce portfolio ( en cours de construction), que j’ai souhaité coder entièrement sans recourir à l’utilisation d’un CMS ou template, vous présente mon parcours ,mes compétences, expériences et projets.<br><br><br>
 									
+									</div>
 								</div>
 		 	    	</div>
 		 	    		
