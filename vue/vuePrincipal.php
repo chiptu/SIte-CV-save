@@ -144,11 +144,6 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
     		<a class = "btn btn-primary mr-5" href="images/cv.pdf" download="cv">Télécharger mon CV</a>
 		</div>
 		
-		<p class="mt-5">Ainsi que mes semestres de BTS :</p>
-		
-		<div class="mt-4 text-center"> 
-			<a class = "btn btn-primary mt-2 mr-5" href="images/semestres.pdf" download="semestres">Télécharger mes semestres</a>
-		</div>
 
 	<br><br>
 	
