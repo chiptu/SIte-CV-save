@@ -48,8 +48,8 @@
        		 	
        		 	<a class="js-scrollTo" href="#Intro">Introduction</a><br>
        		 	<a class="js-scrollTo" href="#1">C#</a><br>
-       		 	<!--<a class="js-scrollTo" href="#2">Python</a><br>
-       		 	<a class="js-scrollTo" href="#3">Java</a><br>-->
+       		 	<a class="js-scrollTo" href="#2">Python</a><br>
+       		 	<!--<a class="js-scrollTo" href="#3">Java</a><br>-->
 				<a class="js-scrollTo" href="#Liens">Liens</a><br>
        		 	<a href="https://leguilloualexandre.fr#Projets">  Revenir aux projets </a>
        		 	
@@ -109,11 +109,25 @@
 			  <p> Comme vous pouvez le voir sur la dernière image ce petit projet m'a aussi permis de décourvrir Visual Studio et l'environnement de développement .NET . Pour accéder au code cliquez 
 			  <a id ="lien"class="text-primary ml-0" href="https://github.com/chiptu/MailC-">ici</a></p>
 				
-			<!--<h2 class="pt-5" id ="2">Jeux en Python</h2><br>
-			<p> Python est un langage de programmation apprécié des développeurs pour sa simplicité de syntax et est notamment utilisé dans le big data et l'ia.  </p><br> -->
+			<h2 class="pt-5" id ="2">Jeux en Python</h2><br>
+			<p> Python est un langage de programmation apprécié des développeurs pour sa simplicité de syntaxe et est notamment utilisé dans le big data et l'ia.<br><br>
+			J'ai eu l'ocasion de faire des petits jeux en ligne de commande, pour m'approprier les notions de base d'algorithmie (condition, boucle, tableau, matrice, triage). </p><br> 
+
+			<p>Démineur :</p>
+
+			<img class="picture m-4 p-4 w-75 rounded"
+    		src="../images/doc/ImgTravaux/demineur.png"
+     		alt="Jeux demineur python "><br>
+
+			 <p>Pendu :</p>
+
+			<img class="picture m-4 p-4 w-75 rounded"
+    		src="../images/doc/ImgTravaux/pendu.png"
+     		alt="Jeux pendu python "><br>
 
 			<h2 class="pt-5" id ="2">Liens</h2><br>
-			<p><a id ="Liens"class="text-primary ml-0" href="https://github.com/chiptu/MailC-">Application windows en C#</a><br><br><br><br><br><br><br><br><br><br></p>
+			<p><a id ="Liens"class="text-primary ml-0" href="https://github.com/chiptu/MailC-">Application windows en C#</a></p>
+			<p><a id ="Liens"class="text-primary ml-0" href="https://github.com/chiptu/JeuxPython">Jeux en python</a></p><br><br><br><br><br><br><br><br><br><br>
 
 		</div>
 	
