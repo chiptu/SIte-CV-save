@@ -2,7 +2,7 @@
 <html lang="fr">
 	
 
-<script src="../style/jquery-3.4.1.js"></script>
+<script src="../../style/jquery-3.4.1.js"></script>
 		
 
 
@@ -19,12 +19,12 @@
 		</script>
 
 
-		<link href="../style/bootstrap-4.3.1/dist/css/bootstrap.min.css" rel="stylesheet"> 
+		<link href="../../style/bootstrap-4.3.1/dist/css/bootstrap.min.css" rel="stylesheet"> 
 		
-		<link href="../style/layout.css" rel="stylesheet">
+		<link href="../../style/layout.css" rel="stylesheet">
 		
 		
-		<script src="../style/bootstrap-4.3.1/dist/js/bootstrap.min.js"></script>
+		<script src="../../style/bootstrap-4.3.1/dist/js/bootstrap.min.js"></script>
 
 
         
@@ -53,8 +53,8 @@
 				<a class="mx-2 js-scrollTo" href="#Déploiement"> Déploiement </a>
 				<a class="mx-2 js-scrollTo" href="#Compétence"> Compétence </a>
 				<a class="mx-2 js-scrollTo" href="#Justification"> Justification </a>
-            	<a class="ml-5 mr-2 " href="DbsPatchs.php"> DBS Patchs </a>
-				<a class="mx-2 " href="DmsWeb.php"> Veille technologique </a>
+            	<a class="ml-5 mr-2 " href="DmsWeb.php"> DMS Web </a>
+				<a class="mx-2 " href="Veille.php"> Veille technologique </a>
                 
                 
 				
@@ -68,7 +68,7 @@
 		
 	<br>
 	
-	<h1>DMS Web</h1>
+	<h1>DBS Patchs</h1>
 	
 	
 	<div class="row">
@@ -86,50 +86,39 @@
 				Skilliance group a donc un logiciel client lourd natif à windows qui est régulièrement mis à jour, les mises à jour sont asynchrones. Un client peut avoir la version 1.1 alors qu'un autre a la version 1.2. Selon les
 				versions certaines comportent des fonctions sur mesure.<br><br>
 
-				Le progiciel natif à windows est amené à évoluer en version web ce qui permettra une compatibilité entre tous les OS (windows, linux, macintosh) et 
-				permet un affichage dynamique sur tout types d'écrans (pc, tablette, téléphone).<br><br>
+				Face à un nombre grandissant de versions du logiciel Skilliance group a eu besoin de faire un outil interne pour gérer les informations sur les versions du logiciel.<br><br>
 
-				Ce projet s'intitule DMS Web, il a vocation à être une maquette, un début à la réflexion que l'entreprise souhaite faire sur l'évolution de son application.
-				
+				Cet outil est une application web sur l'intranet de l'entreprise s'intitulant DBS Patchs. 
 				</p>
 
 				<!--Entreprise, utilite du projet pour l'entreprise, environnement, lien git + lien drive d un zip, ma partie-->
 				
 				<h2 class="pt-5" id ="Environnement">Environnement</h2><br>
 
-				<p>J'ai principalement travaillé sur ce projet seul même si j'ai repris le début de travail d'une première maquette.<br><br>
-				
-				Cependant je pouvais poser des questions sur ReactJS et sa logique à celui qui avait fait le début de maquette
-				j'utilisais bitbucket pour gérer les versions du code de manière git.<br><br>
+				<p>Ce projet était en binôme, nous utilisions bitbucket pour gérer les versions du code de manière git.<br><br>
 
 
 				Les besoins étaient exprimés à l'oral par mon tuteur de stage, que ceux-ci étaient flexibles malgré cela j'ai fait un trello avec des listes de chose à faire, en cours, à vérifer, fait, problème.<br><br>
 
 				Mon poste de travail était sous le système d'exploitation linux ubuntu et j'avais comme IDE (Integrated Development Environment) Visual Studio Code.<br><br>
 
-				Pour le BackEnd une API existait dont je ne conaissais pas son fonctionnement.<br><br> 
+				Pour le BackEnd nous codions en PHP sur le framework laravel en utilisant l'ORM (Object Relation Mapping) eloquent.<br><br> 
 				
-				Concernant le FrontEnd nous utilisions html, scss (qui se compile par la suite en css), Tailwind qui permet de créer du 
-				contenu qui s'adapte à la taille de l'écran (grâce aux flexbox) et de personaliser les éléments directement dans le html de manière plus poussée, précis que bootstrap.
-				<br><br>
-				Tout ces langages, librairies étaient regroupés dans le framework ReactJS qui permet de faire une application web fluide, avec des temps de réponses très bon
-				car la grande partie des formulaires actions sont traités en JS côté client, le côté serveur répondant uniquement à des requêtes très précise grâce à une API.<br><br>
-				Par exemple les modules qui sont au nombre d'une bonne dizaine (matériels, ordres de réparations, clients...) peuvent être placé en favoris 
-				et apparaitrons en tableau de bord, cette gestion des favoris est faites uniquement en FrontEnd grâce au LocalStorage du navigateur et à la logique
-				de rechargement d'état de ReactJS.</p>
+				Concernant le FrontEnd nous utilisions html, scss (qui se compile par la suite en css), Bootstrap qui permet de créer du 
+				contenu qui s'adapte à la taille de l'écran (grâce aux flexbox) et de personaliser les éléments directement dans le html.<br><br></p>
 
 				<h2 class="pt-5" id ="Déploiement">Déploiement</h2><br>
 				<p>
 
-				Lien Google Drive du projet DMS Web en .zip <a class="ml-0 pl-0 text-primary" href="https://drive.google.com/open?id=1k-73Fqq92qTiQhDbq3dMTQbmkLVsyVKi">ici </a>.<br><br>
+				Lien Google Drive du projet DBS Patchs en .zip <a class="ml-0 pl-0 text-primary" href="https://drive.google.com/file/d/1GUzDDlLvmv8dMQzSScPdPBIJOcxxHfTf/view?usp=sharing">ici </a>.<br><br>
 
 				Pour un lien git il me faudra votre mail pour vous inviter de préférence celui de github. <br><br>
 
-				Le projet nécessite Node.Js.
+				Le projet nécessite Laravel 5.8 d'installé avec php aussi.
 
-				Pour lancer le projet il faudra dans le terminal à l'emplacement du dossier faire un "npm install" ou "npm update".<br><br> Normalement
-				vous pourrez faire un "npm run" si tout est bon vous pourrez avoir accès à l'application dans votre navigateur à l'adresse 127.0.0.1:3000 .<br><br>
-				En cas de problème la commande "npm audit fix" résout automatiquement certains problèmes.
+				Pour lancer le projet il faudra dans le terminal à l'emplacement du dossier faire un "composer install" ou "composer update".<br><br> Normalement
+				vous pourrez faire un "php artisan serve" si tout est bon vous pourrez avoir accès à l'application dans votre navigateur à l'adresse 127.0.0.1:8000 .
+
 				</p>
 			
                 <h2 class="pt-5" id ="Compétence">Compétence</h2><br>
