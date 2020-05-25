@@ -42,7 +42,7 @@
 							Je suis étudiant en deuxième année de BTS SIO (Services Informatiques aux Organisations), spécialité SLAM (Solutions Logicielles et applications métiers) au lycée Gustave Eiffel.<br> <br>
 Passionné d’informatique et plus particulièrement de programmation, j’ai choisi cette formation pour approfondir mes connaissances en PHP, JavaScript, Java , HTML, CSS… 
  A l’issue de ce BTS, je serai formé pour développer, adapter et maintenir des solutions applicatives. <br><br>
-Ce portfolio ( en cours de construction), que j’ai souhaité coder entièrement sans recourir à l’utilisation d’un CMS ou template, vous présente mon parcours ,mes compétences, expériences et projets.<br><br><br>
+Ce portfolio que j’ai souhaité coder entièrement sans recourir à l’utilisation d’un CMS ou template, vous présente mon parcours ,mes compétences, expériences et projets.<br><br><br>
 									
 									</div>
 								</div>
@@ -197,7 +197,7 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
 						 (Framework/Librairie de HTML/CSS/JS qui permet d'avoir des éléments responsiv).</p>
     					 
     					 <div class = "text-center">
-    					 	<a href="vue/docSiteCV.php" class="btn btn-primary m-2">Voir la doc</a><a href="https://github.com/chiptu/SIte-CV-save" class="btn btn-primary m-2">Voir le code</a>
+    					 	<a href="vue/doc/docSiteCV.php" class="btn btn-primary m-2">Voir la doc</a><a href="https://github.com/chiptu/SIte-CV-save" class="btn btn-primary m-2">Voir le code</a>
     					 </div>
    						 
    					
@@ -237,7 +237,7 @@ Ce portfolio ( en cours de construction), que j’ai souhaité coder entièremen
 						  Programmation orientée objet en java.  </p>
     					 
     					 <div class = "text-center">
-    					 	<a href="vue/docTravaux.php" class="btn btn-primary m-2 ">Voir la doc</a><a href="vue/docTravaux.php#Liens" class="btn btn-primary m-2">Voir le code</a>
+    					 	<a href="vue/doc/docTravaux.php" class="btn btn-primary m-2 ">Voir la doc</a><a href="vue/docTravaux.php#Liens" class="btn btn-primary m-2">Voir le code</a>
     					 </div>
    						 
 						 <h3 class="text-center font-weight-bold text-warning"><u>En cours de rédaction</u></h2>

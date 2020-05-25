@@ -3,7 +3,7 @@
 <html lang="fr " >
 	<head>
 
-		<script src="../style/jquery-3.4.1.js"></script>
+		<script src="../../style/jquery-3.4.1.js"></script>
 
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>	
@@ -19,12 +19,12 @@
 		</script>
 		
 
-		<link href="../style/bootstrap-4.3.1/dist/css/bootstrap.min.css" rel="stylesheet"> 
+		<link href="../../style/bootstrap-4.3.1/dist/css/bootstrap.min.css" rel="stylesheet"> 
 		
-		<link href="../style/layout.css" rel="stylesheet">
+		<link href="../../style/layout.css" rel="stylesheet">
 		
 		
-		<script src="../style/bootstrap-4.3.1/dist/js/bootstrap.min.js"></script>
+		<script src="../../style/bootstrap-4.3.1/dist/js/bootstrap.min.js"></script>
 
 		<!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> -->
 
@@ -85,25 +85,25 @@
 
 
 			<img class="picture m-4 p-4 w-75 rounded"
-    		src="../images/doc/ImgTravaux/MailDesign.PNG"
+    		src="../../images/doc/ImgTravaux/MailDesign.PNG"
      		alt="Design Application windows envoie mail "><br>
 
 			<p> L'application permet de modifier , supprimer , ajouter des contacts et serveurs.</p>
 
 			<img class="picture m-4 p-4 w-75 mt-0 pt-0 rounded"
-    		 src="../images/doc/ImgTravaux/MailModif.PNG"
+    		 src="../../images/doc/ImgTravaux/MailModif.PNG"
      		 alt="Design gestion contact"><br>
 
 			 <img class="picture m-4 p-4 w-75 rounded"
-    		 src="../images/doc/ImgTravaux/MailEnregistrer.PNG"
+    		 src="../../images/doc/ImgTravaux/MailEnregistrer.PNG"
      		 alt="Design gestion contact"><br>
 
 			<img class="picture m-4 p-4 w-75 rounded"
-    		 src="../images/doc/ImgTravaux/MailServeur.PNG"
+    		 src="../../images/doc/ImgTravaux/MailServeur.PNG"
      		 alt="Design gestion serveur"><br>
 
 			  <img class="picture m-4 p-4 w-75 rounded"
-    		 src="../images/doc/ImgTravaux/mailIDE.PNG"
+    		 src="../../images/doc/ImgTravaux/mailIDE.PNG"
      		 alt="Design gestion serveur"><br>
 
 			  <p> Comme vous pouvez le voir sur la dernière image ce petit projet m'a aussi permis de décourvrir Visual Studio et l'environnement de développement .NET . Pour accéder au code cliquez 
@@ -116,13 +116,13 @@
 			<p>Démineur :</p>
 
 			<img class="picture m-4 p-4 w-75 rounded"
-    		src="../images/doc/ImgTravaux/demineur.png"
+    		src="../../images/doc/ImgTravaux/demineur.png"
      		alt="Jeux demineur python "><br>
 
 			 <p>Pendu :</p>
 
 			<img class="picture m-4 p-4 w-75 rounded"
-    		src="../images/doc/ImgTravaux/pendu.png"
+    		src="../../images/doc/ImgTravaux/pendu.png"
      		alt="Jeux pendu python "><br>
 
 			<h2 class="pt-5" id ="2">Liens</h2><br>

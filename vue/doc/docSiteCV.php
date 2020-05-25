@@ -4,7 +4,7 @@
 <html lang="fr " >
 	<head>
 
-		<script src="../style/jquery-3.4.1.js"></script>
+		<script src="../../style/jquery-3.4.1.js"></script>
 
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>	
@@ -20,12 +20,12 @@
 		</script>
 		
 
-		<link href="../style/bootstrap-4.3.1/dist/css/bootstrap.min.css" rel="stylesheet"> 
+		<link href="../../style/bootstrap-4.3.1/dist/css/bootstrap.min.css" rel="stylesheet"> 
 		
-		<link href="../style/layout.css" rel="stylesheet">
+		<link href="../../style/layout.css" rel="stylesheet">
 		
 		
-		<script src="../style/bootstrap-4.3.1/dist/js/bootstrap.min.js"></script>
+		<script src="../../style/bootstrap-4.3.1/dist/js/bootstrap.min.js"></script>
 
 		<!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> -->
 
@@ -91,7 +91,7 @@
 				 le html est renvoyé par du php.</p>
 			
 				<img class="picture h-3 m-4 w-25 rounded"
-    			 src="../images/doc/ImgSiteCV/arbo.png"
+    			 src="../../images/doc/ImgSiteCV/arbo.png"
      			 alt="Arborescence code SiteCV"><br>
 			
 			
@@ -108,7 +108,7 @@
 				12 colonnes, on peut faire des colonnes spécifiques à certain formats d'écrans.</div>
 				
 				<img class="picture h-5 m-4 w-75 p-5 rounded"
-    			 src="../images/doc/ImgSiteCV/bootstrap12.png"
+    			 src="../../images/doc/ImgSiteCV/bootstrap12.png"
      			 alt="Exemple row col bootstrap">
 
 				  <div class ="ph4">Cette 'grille' de bootstrap est basé sur les éléments css flexbox qui peuvent être vue comme des
@@ -116,15 +116,15 @@
 				  Voici un exemple d'une grille de flexbox et sa traduction en bootstrap. </div>
 
 				  <img class="picture h-5 m-4 w-50 rounded"
-    			 src="../images/doc/ImgSiteCV/flexbox.png"
+    			 src="../../images/doc/ImgSiteCV/flexbox.png"
      			 alt="Socials icons version pc"><br>
 
 				  <img class="picture h-5 m-4 w-50 rounded"
-    			 src="../images/doc/ImgSiteCV/ExFlex2.png"
+    			 src="../../images/doc/ImgSiteCV/ExFlex2.png"
      			 alt="Socials icons version pc"><br>
 
 				  <img class="picture h-5 m-4 w-50 rounded"
-    			 src="../images/doc/ImgSiteCV/exFlex.png"
+    			 src="../../images/doc/ImgSiteCV/exFlex.png"
      			 alt="Socials icons version pc"><br><br>
 
 					
@@ -144,11 +144,11 @@
 				 
 				 
 				  <img class="picture h-5 m-4 w-25 rounded"
-    			 src="../images/doc/ImgSiteCV/bootstrap2.png"
+    			 src="../../images/doc/ImgSiteCV/bootstrap2.png"
      			 alt="Socials icons version pc">
 				->
 				<img class="picture h-5 m-4 w-25 rounded"
-    			 src="../images/doc/ImgSiteCV/bootstrap.png"
+    			 src="../../images/doc/ImgSiteCV/bootstrap.png"
      			 alt="Socials icons version mobile">
      			 
      			 
@@ -157,11 +157,11 @@
      			 comme le margin , padding , couleurs, taille de l'élément et aussi son emplacement dans la grille ...<br></div>
      			 
      			  <img class="picture h-5 m-4 w-75 rounded pr-5 pl-5"
-    			 src="../images/doc/ImgSiteCV/bootstrapButton.png"
+    			 src="../../images/doc/ImgSiteCV/bootstrapButton.png"
      			 alt="Exemple row et buttons bootstrap">
      			 
      			 <img class="picture h-5 m-4 w-75 rounded"
-    			 src="../images/doc/ImgSiteCV/ButtonBootstrap.png"
+    			 src="../../images/doc/ImgSiteCV/ButtonBootstrap.png"
      			 alt="Rendu de l exemple ci dessus bootstrap">
      			 
      			 <br>
@@ -184,18 +184,18 @@
 				
 				<div class = "ph4">
 				<img class="picture  w-100 rounded mt-3 mb-5"
-    			 src="../images/doc/ImgSiteCV/popup.png"
+    			 src="../../images/doc/ImgSiteCV/popup.png"
      			 alt="Popup issue de bootstrap">
 
 				
 
 				  <img class="picture  w-100 rounded mb-3"
-    			 src="../images/doc/ImgSiteCV/popup2.png"
+    			 src="../../images/doc/ImgSiteCV/popup2.png"
      			 alt="Popup issue de bootstrap">
 				
 
 				<img class="picture  w-100 rounded mb-3"
-    			 src="../images/doc/ImgSiteCV/CodePopUp.png"
+    			 src="../../images/doc/ImgSiteCV/CodePopUp.png"
      			 alt="Popup issue de bootstrap">
 				<br><br>
 				  En élément qui dénote j'ai fait aussi des éléments "accordéons" avec bootstrap que voici. Le code contient aussi du php 
@@ -205,15 +205,15 @@
 				  <div class = "ph4">
 
 				  <img class="picture  w-100 rounded mb-3"
-    			 src="../images/doc/ImgSiteCV/accordeons.png"
+    			 src="../../images/doc/ImgSiteCV/accordeons.png"
      			 alt="Popup issue de bootstrap">
 
 				  <img class="picture w-100 rounded mb-3"
-    			 src="../images/doc/ImgSiteCV/accordeons2.png"
+    			 src="../../images/doc/ImgSiteCV/accordeons2.png"
      			 alt="Popup issue de bootstrap">
 
 				  <img class="picture h-75 w-100 rounded mb-3"
-    			 src="../images/doc/ImgSiteCV/codeAccordeon.png"
+    			 src="../../images/doc/ImgSiteCV/codeAccordeon.png"
      			 alt="Popup issue de bootstrap">
 
 				  <br><br>
@@ -224,19 +224,19 @@
 				  <div class = "ph4">
 
 				  <img class="picture w-100 rounded mb-3"
-    			 src="../images/doc/ImgSiteCV/navPc.png"
+    			 src="../../images/doc/ImgSiteCV/navPc.png"
      			 alt="Popup issue de bootstrap">
 
 				  <img class="picture w-100 rounded mb-3"
-    			 src="../images/doc/ImgSiteCV/nav.png"
+    			 src="../../images/doc/ImgSiteCV/nav.png"
      			 alt="Popup issue de bootstrap">
 
 				  <img class="picture w-100 rounded mb-3"
-    			 src="../images/doc/ImgSiteCV/navCollapse.png"
+    			 src="../../images/doc/ImgSiteCV/navCollapse.png"
      			 alt="Popup issue de bootstrap">
 
 				  <img class="picture w-100 rounded mb-3"
-    			 src="../images/doc/ImgSiteCV/codeNav.png"
+    			 src="../../images/doc/ImgSiteCV/codeNav.png"
      			 alt="Popup issue de bootstrap">
 				  </div>
 
@@ -265,7 +265,7 @@
 				premier est l'adaptation du site à tous les écrans (pc, tablettes, mobiles).</div>
 
 				<img class="picture  rounded w-75 mx-5 px-5"
-    			 src="../images/doc/ImgSiteCV/woorankResponsiv.png"
+    			 src="../../images/doc/ImgSiteCV/woorankResponsiv.png"
      			 alt="Affichage responsiv woorank"><br><br>
 				
 				<div class ="ph4">
@@ -276,7 +276,7 @@
 				des ressources utilisés et une mise en cache optimisé des ressources.</div>
 
 				<img class="picture  rounded w-75 mx-5 px-5"
-    			 src="../images/doc/ImgSiteCV/woorankPerformance.png"
+    			 src="../../images/doc/ImgSiteCV/woorankPerformance.png"
      			 alt="Performance de rechargement woorank"><br><br>
 
 
@@ -285,7 +285,7 @@
 				  </div><br><br>
 
 				  <img class="picture  rounded w-75 mx-5 px-5"
-    			 src="../images/doc/ImgSiteCV/vitesseSite.png"
+    			 src="../../images/doc/ImgSiteCV/vitesseSite.png"
      			 alt="Vitesse de chargement de mon site"><br><br>
 
 				  <div class ="ph4">
@@ -300,7 +300,7 @@
 					</div><br>
 
 				 <img class="picture rounded w-75 mx-5 px-5"
-    			 src="../images/doc/ImgSiteCV/woorankSSL.png"
+    			 src="../../images/doc/ImgSiteCV/woorankSSL.png"
      			 alt="Analyse woorank SSL"><br><br>
 
 				  <div class ="ph4"><u>- Les normes d'indexation</u>. Ce deuxième critère est directement destiné aux moteurs de 
@@ -310,7 +310,7 @@
 				 (twitter, linkedin , facebook...).  </div><br>
 
 				 <img class="picture  rounded w-75 ml-5 "
-    			 src="../images/doc/ImgSiteCV/meta.png"
+    			 src="../../images/doc/ImgSiteCV/meta.png"
      			 alt="Exemple de code de meta données"><br><br>
      			 
 				  <div class ="ph4"> Ensuite on a l'ajout de fichiers pour les moteurs de recherches, 
@@ -321,12 +321,12 @@
 				  Si les algorithmes n'ont pas ce fichier ils sont suceptibles de ne pas analyser certaines pages du site.  </div><br><br>
 
 				  <img class="picture  rounded w-50  "
-    			 src="../images/doc/ImgSiteCV/robotsTxt.png"
+    			 src="../../images/doc/ImgSiteCV/robotsTxt.png"
      			 alt="Fichier texte pour les robots google"><br><br>
 
 
 				  <img class="picture  rounded w-50 "
-    			 src="../images/doc/ImgSiteCV/SitemapXml.png"
+    			 src="../../images/doc/ImgSiteCV/SitemapXml.png"
      			 alt="Sitemap.xml de mon site"><br><br>
 
 
@@ -337,12 +337,12 @@
 				   </div><br>
 
 				   <img class="picture  rounded w-75 mx-5 px-5"
-    			 src="../images/doc/ImgSiteCV/404.png"
+    			 src="../../images/doc/ImgSiteCV/404.png"
      			 alt="Erreur 404 de base d apache"><br><br>
 
 
 				  <img class="picture  rounded w-75 mx-5 px-5"
-    			 src="../images/doc/ImgSiteCV/4042.png"
+    			 src="../../images/doc/ImgSiteCV/4042.png"
      			 alt="Erreur 404 personalisé"><br><br>
 
 
@@ -362,7 +362,7 @@
 				</div><br>
 
 				<img class="picture  rounded w-75 mx-5 px-5"
-    			 src="../images/doc/ImgSiteCV/GoogleAnalytics.png"
+    			 src="../../images/doc/ImgSiteCV/GoogleAnalytics.png"
      			 alt="Code Google Analytics"><br><br>
 				
 				<div class ="ph4">
@@ -371,11 +371,11 @@
 				</div><br>
 
 				<img class="picture  rounded w-75 mx-5 px-5"
-    			 src="../images/doc/ImgSiteCV/googleAnalytic.png"
+    			 src="../../images/doc/ImgSiteCV/googleAnalytic.png"
      			 alt="Interface Google Analytics"><br><br>
 
 				  <img class="picture  rounded w-75 mx-5 px-5"
-    			 src="../images/doc/ImgSiteCV/googleAnalytic2.png"
+    			 src="../../images/doc/ImgSiteCV/googleAnalytic2.png"
      			 alt="Interface Google Analytics"><br><br>
 
 				  <div class ="ph4">
@@ -384,12 +384,12 @@
 				  </div><br>
 
 				  <img class="picture  rounded w-75 mx-5 px-5"
-    			 src="../images/doc/ImgSiteCV/traffic.png"
+    			 src="../../images/doc/ImgSiteCV/traffic.png"
      			 alt="Notation traffic de mon site sur woorank"><br><br>
 
 
 				  <img class="picture  rounded w-75 mx-5 px-5"
-    			 src="../images/doc/ImgSiteCV/Socials.png"
+    			 src="../../images/doc/ImgSiteCV/Socials.png"
      			 alt="Notation engament sur les reseaux sociaux de mon site sur woorank"><br><br>
 
 
@@ -406,11 +406,11 @@
 			retrouve la même arborescence que sur un serveur apache (www/site).</p>
 
 			<img class="picture rounded w-75 mx-5 px-4"
-    		 src="../images/doc/ImgSiteCV/www.png"
+    		 src="../../images/doc/ImgSiteCV/www.png"
      		 alt="arborescence apache ovh"><br><br>
 
 			<img class="picture rounded w-75 mx-5 px-4"
-    		 src="../images/doc/ImgSiteCV/www2.png"
+    		 src="../../images/doc/ImgSiteCV/www2.png"
      		 alt="arborescence apache ovh"><br><br>
 
 			<p> Comme on peut le voir dans l'arborescence il y a deux fichiers essentiels à configurer qui sont 
@@ -418,7 +418,7 @@
 			, ovh va sûrement traduire ses informations en commande linux apt get ...</p>
 
 			<img class="picture rounded w-75 mx-5 px-4"
-    		 src="../images/doc/ImgSiteCV/ovhconfig.png"
+    		 src="../../images/doc/ImgSiteCV/ovhconfig.png"
      		 alt="arborescence apache ovh"><br><br>
 				
 			  <p> Le second fichier htaccess est le plus important , va permettre de configurer les redirections http vers le https 
@@ -426,7 +426,7 @@
 
 			
 			  <img class="picture rounded w-75 mx-5 px-4"
-    		 src="../images/doc/ImgSiteCV/htaccess.png"
+    		 src="../../images/doc/ImgSiteCV/htaccess.png"
      		 alt="arborescence apache ovh"><br><br><br>
 
 			

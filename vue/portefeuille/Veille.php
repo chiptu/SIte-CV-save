@@ -96,11 +96,46 @@
 				
 				<h2 class="pt-5" id ="Environnement">Outils</h2><br>
 
+                <p> Pour faire une veille technologique et s'informer des nouveautés, actualités sur un sujet il faut des flux de données pertinent. <br>
+                Ces flux doivent être assez large pour ne pas rater d'actualité mais sans englober d'information hors sujet, inutile.<br><br>
+                J'ai utilisé principalement innoreader qui est un outil de filtrage de flux d'informations par tag et j'ai 
+                aussi utilisé des sources d'informations plus puriels comme le journal du hacker, jesuisundev pour ma veille technologique.<br><br>
+				Il m'est arrivé de faire des recherches google pour voir les news sur un sujet, google alert peut être aussi un outil pertinent, il permet de recevoir 
+				une notification sur des actualités sur un sujet donné.<br><br>
+
+				Sources: <a class="ml-0 pl-0 text-primary" href="https://www.inoreader.com/feed/https%3A%2F%2Fandroidstudio.googleblog.com%2Ffeeds%2Fposts%2Fdefault">Innoreader</a>
+				<a class="ml-0 pl-0 text-primary" href="https://www.jesuisundev.com">jesuisundev</a>
+				<a class="ml-0 pl-0 text-primary" href="https://www.journalduhacker.net">journalduhacker</a>
+				
+				</p>
+
 
 				<h2 class="pt-5" id ="Déploiement">Réalisation</h2><br>
-				
 
+				<p>Concrètement kotlin a connu des mises à jour pour ajouter des détails techniques comme la configuration des dépendances de ses modules d'installation 
+				la compatibilité avec diverses librairies, plateformes... <br> Sources : <a class="text-dark" href="https://kotlinlang.org/docs/reference/whatsnew13.html"> Kotlin 1.3 </a>
+					<a class="text-dark" href="https://kotlinlang.org/docs/reference/whatsnew12.html"> Kotlin 1.2 </a> <br><br>
+					
+					
+				Pour Java il y a un ensemble de version stable ou expérimental (JDK, JEE, J2SE, JavaSE) portant sur différents environnements avec différentes configuration comme maven
+				pour Java EE ... Un site intéressant sur le monde java est infoq que vous pouvez retrouver <a class="ml-0 pl-0 text-primary" href="https://www.infoq.com/fr/java/news/">ici</a>.<br><br>
+					
+				Pour être franc je ne comprend rien à la technicité de ses mises à jour dans les librairies de java ou kotlin. C'est pour cela que je m'étais dis autant
+				faire quelque chose de concret comme une application Android codé en java et une codé en kotlin et faire la différence.<br><br>
+				Pour des raisons multiples ce travaille n'est pas fait même si j'avais bien avancé sur ma version java dont vous pouvez voir le code 
+				<a class="ml-0 pl-0 text-primary" href="https://github.com/chiptu/AndroidBarbu">ici</a> et un brouillon de documentation 
+				<a class="ml-0 pl-0 text-primary" href="https://docs.google.com/document/d/1OwTGYwe5f7_lGe8BOG9r-l5jOTMK2ydoYXNR9EdckHo/edit?usp=sharing">là</a>
+				
+				</p>
+				
+				
                 <h2 class="pt-5" id ="Compétence">Bilan</h2><br>
+
+				<p>Java voit donc un concurrent arrivé qui est souvent décrit comme la relève et est promu par Google. Android
+				Studio et l'inclusion de kotlin dans celui-ci est un exemple du soutien de google au langage kotlin. <br><br>
+				Kotlin et particulièrement java ont régulièrement des mises à jour pour l'interopérabilités entre tous types de plateformes (virtualisation, compilation...).
+				Ces mises à jour interne à leur librairie sont complexes et peu lisible.<br><br>
+				Faire deux applications android l'une en java et l'autre en kotlin prend plus de temps que j'imaginais et comprend tout un tas de blocage de configurations, emulations...</p>
 
                 
 
