@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr " >
 	
 
 <script src="../../style/jquery-3.4.1.js"></script>
@@ -64,18 +64,15 @@
 	</nav>
 	
 	
-<div class = "container h-100 bg-white" id="doc">
-		
-	<br>
-	
-	<h1>DBS Patchs</h1><img class="picture rounded w-50 mx-5 px-4 h-25 "
-    		 src="../../images/portefeuille/trello.png"
-     		 alt="archive trello"><br><br>
-	
-	
-	<div class="row">
+
+	<div class="row ">
          <div class="col-12">
 
+
+		 
+		 <div class = "container bg-white" id="doc">	
+
+		 <h1>DBS Patchs</h1>
 
                 <h2 class="pt-5" id ="Contexte">Contexte</h2><br>
 
@@ -204,7 +201,7 @@
                     </tr>
 					<tr class="bg-dark">
                         <td class ="text-white">A4.1.2</td>
-                        <td class ="text-white">Conception ou adaptation de l'interface utilisateurd'une solution apllicative</td>
+                        <td class ="text-white">Conception ou adaptation de l'interface utilisateur d'une solution apllicative</td>
                         <td><a class ="ml-0 pl-0 text-primary js-scrollTo" href ="#A4.1.2">ici</a></td>						
   
                     </tr>
@@ -252,7 +249,7 @@
 		<h2 class="pt-5" id ="Justification">Justification</h2><br>
 
 		
-		<h4 id="A1.1.1">A1.1.1</h4><br>
+		<h4 class="pt-5" id="A1.1.1">A1.1.1</h4><br>
 		<p>
 		Ce projet a nécissité une analyse des besoins pour choisir certaines librairies, mise en forme et construction de fonction en backend.<br>
 		Les besoins n'étaient pas exprimés à l'écrit mais à l'oral par mon tuteur. Une fois énoncé je notais, décortiquais ces besoins sur trello.<br>
@@ -265,33 +262,40 @@
      		 alt="archive trello"><br><br>
 		
 
-		<h4 id="A1.1.3">A1.1.3</h4><br>
+		<h4 class="pt-5" id="A1.1.3">A1.1.3</h4><br>
 
 		<p>L'analyse du besoin engendre des critères minimum d'exigence. Par exemple le besoin de gestion de module exige que certains modules ne puissent être supprimés 
 		selon leur liaison en BDD.</p>
 
-		<h4 id="A1.2.2">A1.2.2</h4><br>
+		<h4 class="pt-5" id="A1.2.2">A1.2.2</h4><br>
 
 		<p>
 		La solution retenue et ses spécifications techniques sont englobés dans trello.
 		</p>
 
-		<h4 id="A1.2.4">A1.2.4</h4><br>
+		<h4 class="pt-5" id="A1.2.4">A1.2.4</h4><br>
 
-		<p>Chaque fonctionnalité trello passe par la liste verify qui est en fait le moment de tester la fonctionnalité. Par example pour la recherche de patchs
+		<p>Chaque fonctionnalité trello passe par la liste verify qui est en fait le moment de tester la fonctionnalité. Par exemple pour la recherche de patchs
 		avec 3 champs possibles j'ai fais 7 tests sur des jeux de données différents. Ces commutations comprennent 3 tests avec 1 champ remplit, 
 		3 tests avec 2 champs remplit , 1 test avec tous les champs remplit.</p>
 
-		<h4 id="A1.4.1">A1.4.1</h4><br>
+		<h4 class="pt-5" id="A1.4.1">A1.4.1</h4><br>
 
 		<p>Je vous renvoie au contexte, environnement, déploiement. En complément voici les parties du projet sur lequelles j'ai travaillé.</p>
 
-		<p></p>
+		<p>Ci-dessous vous pouvez voir la partie principale patch qui affiche par défaut tous les patchs et contient un formulaire de recherches, 
+		tris des patchs selon plusieurs critères.<br><br> Dans cette page vous pouvez déployer l'accordéon d'un patch pour lire ses informations et télécharger ce patch 
+		soit au format word, excel. J'ai fais entièrement le FrontEnd et Backend de celui ci que vous pouvez retrouvez au chemin app/Http/PatchController et 
+		ressources/views/visiteur/Lespatchs.blade.php.</p>
 		<img class="picture rounded w-75 "
     	src="../../images/portefeuille/dbs1.png"
      	alt="archive trello"><br><br>
 
-		 <p></p>
+		 <p>Chaque patch a différents élements rattachés à lui dont des modules, sous modules et tags. Ces 3 éléments peuvent être gérés dans la partie administrateur.
+		  Comme vous pouvez le voir ci-dessous on a la liste de ses sous modules, on peut ajouter, modifier et supprimer si la bdd le permet.<br><br> J'ai fais 
+		  entièrement le FrontEnd accessible dans ressources/views/administration/sousModule/ , pour le backend j'ai pu m'aider d'un modèle qui ressemblait un peu près 
+		  vous pouvez y accéder dans Http/Controllers/sousModuleController.php. <br><br> Je tiens à noter que nous utilisions l'ORM eloquent on accède directement 
+		  à tous les objets modules de la bdd en faisant Module::all() par exemple. </p>
 		<img class="picture rounded w-75 "
     	src="../../images/portefeuille/dbs2.png"
      	alt="archive trello"><br><br>
@@ -312,32 +316,56 @@
      	alt="archive trello"><br><br>
 
 
-		<h4 id="A1.4.2">A1.4.2</h4><br>
-		<p></p>
-		<h4 id="A2.3.1">A2.3.1</h4><br>
-		<p></p>
-		<h4 id="A2.3.2">A2.3.2</h4><br>
-		<p></p>
-		<h4 id="A3.2.1">A3.2.1</h4><br>
-		<p></p>
-		<h4 id="A3.2.2">A3.2.2</h4><br>
-		<p></p>
-		<h4 id="A4.1.1">A4.1.1</h4><br>
-		<p></p>
-		<h4 id="A4.1.2">A4.1.2</h4><br>
-		<p></p>
-		<h4 id="A4.1.3">A4.1.3</h4><br>
-		<p></p>
-		<h4 id="A4.1.4">A4.1.4</h4><br>
-		<p></p>
-		<h4 id="A4.1.6">A4.1.6</h4><br>
-		<p></p>
-		<h4 id="A4.1.7">A4.1.7</h4><br>
-		<p></p>
-		<h4 id="A4.1.8">A4.1.8</h4><br>
-		<p></p>
-		<h4 id="A4.1.9">A4.1.9</h4><br>
-		<p></p>
+		<h4 class="pt-5" id="A1.4.2">A1.4.2</h4><br>
+		<p>Le suivi de mon projet était fait à l'oral par mon tuteur, j'allais le voir quand j'avais besoin d'aide il venait me voir pour faire le point.
+		<br><br> Pour ce qui est des estimations du temps je me basais sur mon expérience, ressentis, avancement du trello. Il m'est arrivé d'être bloqué de lui dire 
+		et qu'il me dèbloque sur un problème.</p>
+
+
+		<h4  class="pt-5" id="A2.3.1">A2.3.1</h4><br>
+		<p> Un problème basique était par exemple survenu sur l'accordéon pour le faire glisser il faut référencer l'id du contenu à faire glisser sur le bouton.
+		J'avais choisi en id l'id du patch qui se déroulerai comme A3.2 par exemple, après m'être rendu compte de ce problème de déroulement je suis aller relire la 
+		doc de Bootstrap, tester l'exemple dans mon code voir qu'il marchait. Quand mon tuteur est passé je lui ai montré cette incohérence et il m'a expliqué
+		que le problème est qu'il ne faut pas mettre de . dans les id et classes du html.
+
+
+		<h4 class="pt-5" id="A2.3.2">A2.3.2</h4><br>
+		<p>J'ai proposé que tout en bas de la page il y est une option pour télécharger tous les patchs au format word et excel au lieu de devoir les télécharger un par un 
+		puis les fusionner.</p>
+		<h4 class="pt-5" id="A3.2.1">A3.2.1</h4><br>
+		<p>Le premier jour j'ai installé laravel 5.8 et j'ai dû mettre à jour puis rétrograder la version de php sur mon poste linux ubuntu, j'ai clôné sur git le 
+		projet dont l'arborescence existait déjà en partie et j'ai appris plusieur commande pour compiler le scss, lancer le serveur apache de laravel, installer composer,
+		vider le cache ...</p>
+		<h4 class="pt-5" id="A3.2.2">A3.2.2</h4><br>
+		<p>Les éléments de gestions de sous modules, tags, modules peuvent être perçus comme des mises à jour d'éléments car ils comportent la même logique, interface, seul 
+		change les conditions de suppressions.</p>
+		<h4 class="pt-5" id="A4.1.1">A4.1.1</h4><br>
+		<p>En ce qui concerne la conversion des objets php patchs au format word, excel, j'étais libre de choir l'outil la solution qui me semblait la plus pertinente.
+		J'ai choisi PhpWord et PhpExcel.</p>
+		<h4 class="pt-5" id="A4.1.2">A4.1.2</h4><br>
+		<p>L'interface est en partie conçu par moi, mon tuteur me recadrait si quelque chose ne convenait pas, si des éléments existaient déjà je les réutilisaient comme 
+		le formulaire d'ajout et de modification de module par exemple.</p>
+		<h4 class="pt-5" id="A4.1.3">A4.1.3</h4><br>
+		<p> La base de donnée était déjà conçu, il a juste fallu modifier certain détail dedans notemment entre le relation patchs et modules.</p>
+
+		<img class="picture rounded w-75 "
+    	src="../../images/portefeuille/db.png"
+     	alt="archive trello"><br><br>
+		<h4 class="pt-5" id="A4.1.4">A4.1.4</h4><br>
+		<p>La définition des caractéristiques de la solution applicative étaient définit dans les besoins, celles-ci ont été entièrement respecté</p>
+		<h4 class="pt-5" id="A4.1.6">A4.1.6</h4><br>
+		<p>La gestion de l'environnemnt de développement est expliqué dans la partie environnement et déploiment, j'ai découvert laravel, éloquent, composer, la compilation de scss.
+		En ce qui concer les tests ils étaient fait à la main.</p>
+		<h4 class="pt-5" id="A4.1.7">A4.1.7</h4><br>
+		<p>PhpWord et PhpExcel qu'on peut regroupé sous PhpOffice est l'élément que j'ai installé, utilisé en étant forcé de me documenter sur la doc officielle
+		mais très peu complète j'ai dû aller voir sur des forums comme stackoverflow et github.</p>
+		<h4  class="pt-5" id="A4.1.8">A4.1.8</h4><br>
+		<p>Les tests sont fait à la main, j'ai réfléchit à tous les cas possibles de jeux de données à trier, convertir et j'ai tester cela.</p>
+		<h4 class="pt-5" id="A4.1.9">A4.1.9</h4><br>
+		<div class="m-4 text-center"> 
+		<p>Vous trouverez ci-dessous le documentation que j'ai rédigé sur la recherche, conversion de patchs correspondant à ce controlleur app/Http/PatchController</p>
+    		<a class = "btn btn-primary mr-5 mb-5" href="../../images/portefeuille/doc.odt" download="DocRecherchePatchs">Télécharger la doc de recherche de patchs</a>
+		</div>
 		</p>
 
 
