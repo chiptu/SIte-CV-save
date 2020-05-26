@@ -362,10 +362,10 @@
 		<h4  class="pt-5" id="A4.1.8">A4.1.8</h4><br>
 		<p>Les tests sont fait à la main, j'ai réfléchit à tous les cas possibles de jeux de données à trier, convertir et j'ai tester cela.</p>
 		<h4 class="pt-5" id="A4.1.9">A4.1.9</h4><br>
-		<div class="m-4 text-center"> 
-		<p>Vous trouverez ci-dessous le documentation que j'ai rédigé sur la recherche, conversion de patchs correspondant à ce controlleur app/Http/PatchController</p>
-    		<a class = "btn btn-primary mr-5 mb-5" href="../../images/portefeuille/doc.odt" download="DocRecherchePatchs">Télécharger la doc de recherche de patchs</a>
-		</div>
+		
+		<p>Vous trouverez ci-dessous le documentation que j'ai rédigé sur la recherche, conversion de patchs correspondant à ce controlleur app/Http/PatchController .</p>
+    		<a class = "btn btn-primary mr-5 mb-5" href="../../images/portefeuille/doc.pdf" download="DocRecherchePatchs">Télécharger la doc de recherche de patchs</a>
+		
 		</p>
 
 
