@@ -64,11 +64,13 @@
 	</nav>
 	
 	
-	<div class = "container h-100 bg-white" id="doc">
+<div class = "container h-100 bg-white" id="doc">
 		
 	<br>
 	
-	<h1>DBS Patchs</h1>
+	<h1>DBS Patchs</h1><img class="picture rounded w-50 mx-5 px-4 h-25 "
+    		 src="../../images/portefeuille/trello.png"
+     		 alt="archive trello"><br><br>
 	
 	
 	<div class="row">
@@ -91,7 +93,6 @@
 				Cet outil est une application web sur l'intranet de l'entreprise s'intitulant DBS Patchs. 
 				</p>
 
-				<!--Entreprise, utilite du projet pour l'entreprise, environnement, lien git + lien drive d un zip, ma partie-->
 				
 				<h2 class="pt-5" id ="Environnement">Environnement</h2><br>
 
@@ -183,7 +184,7 @@
                         <td><a class ="ml-0 pl-0 text-primary js-scrollTo" href ="#A2.3.2">ici</a></td>						
   
                     </tr>
-					<tr>
+					<tr><!--Entreprise, utilite du projet pour l'entreprise, environnement, lien git + lien drive d un zip, ma partie-->
                         <td>A3.2.1</td>
                         <td>Installation et configuration d'éléments d'infrastructure</td>
                         <td><a class ="ml-0 pl-0 text-primary js-scrollTo" href ="#A3.2.1">ici</a></td>						
@@ -250,25 +251,93 @@
 
 		<h2 class="pt-5" id ="Justification">Justification</h2><br>
 
-		<p>
+		
 		<h4 id="A1.1.1">A1.1.1</h4><br>
+		<p>
+		Ce projet a nécissité une analyse des besoins pour choisir certaines librairies, mise en forme et construction de fonction en backend.<br>
+		Les besoins n'étaient pas exprimés à l'écrit mais à l'oral par mon tuteur. Une fois énoncé je notais, décortiquais ces besoins sur trello.<br>
+
+		</p>
+
+		
+		<img class="picture rounded w-50 mx-5 px-4 h-25 "
+    		 src="../../images/portefeuille/trello.png"
+     		 alt="archive trello"><br><br>
+		
+
 		<h4 id="A1.1.3">A1.1.3</h4><br>
+
+		<p>L'analyse du besoin engendre des critères minimum d'exigence. Par exemple le besoin de gestion de module exige que certains modules ne puissent être supprimés 
+		selon leur liaison en BDD.</p>
+
 		<h4 id="A1.2.2">A1.2.2</h4><br>
+
+		<p>
+		La solution retenue et ses spécifications techniques sont englobés dans trello.
+		</p>
+
 		<h4 id="A1.2.4">A1.2.4</h4><br>
+
+		<p>Chaque fonctionnalité trello passe par la liste verify qui est en fait le moment de tester la fonctionnalité. Par example pour la recherche de patchs
+		avec 3 champs possibles j'ai fais 7 tests sur des jeux de données différents. Ces commutations comprennent 3 tests avec 1 champ remplit, 
+		3 tests avec 2 champs remplit , 1 test avec tous les champs remplit.</p>
+
 		<h4 id="A1.4.1">A1.4.1</h4><br>
+
+		<p>Je vous renvoie au contexte, environnement, déploiement. En complément voici les parties du projet sur lequelles j'ai travaillé.</p>
+
+		<p></p>
+		<img class="picture rounded w-75 "
+    	src="../../images/portefeuille/dbs1.png"
+     	alt="archive trello"><br><br>
+
+		 <p></p>
+		<img class="picture rounded w-75 "
+    	src="../../images/portefeuille/dbs2.png"
+     	alt="archive trello"><br><br>
+
+		 <p></p>
+		<img class="picture rounded w-75 "
+    	src="../../images/portefeuille/dbs3.png"
+     	alt="archive trello"><br><br>
+
+		 <p></p>
+		<img class="picture rounded w-75 "
+    	src="../../images/portefeuille/dbs4.png"
+     	alt="archive trello"><br><br>
+
+		 <p></p>
+		<img class="picture rounded w-75 "
+    	src="../../images/portefeuille/dbs5.png"
+     	alt="archive trello"><br><br>
+
+
 		<h4 id="A1.4.2">A1.4.2</h4><br>
+		<p></p>
 		<h4 id="A2.3.1">A2.3.1</h4><br>
+		<p></p>
 		<h4 id="A2.3.2">A2.3.2</h4><br>
+		<p></p>
 		<h4 id="A3.2.1">A3.2.1</h4><br>
+		<p></p>
 		<h4 id="A3.2.2">A3.2.2</h4><br>
+		<p></p>
 		<h4 id="A4.1.1">A4.1.1</h4><br>
+		<p></p>
 		<h4 id="A4.1.2">A4.1.2</h4><br>
+		<p></p>
 		<h4 id="A4.1.3">A4.1.3</h4><br>
+		<p></p>
 		<h4 id="A4.1.4">A4.1.4</h4><br>
+		<p></p>
 		<h4 id="A4.1.6">A4.1.6</h4><br>
+		<p></p>
 		<h4 id="A4.1.7">A4.1.7</h4><br>
+		<p></p>
 		<h4 id="A4.1.8">A4.1.8</h4><br>
+		<p></p>
 		<h4 id="A4.1.9">A4.1.9</h4><br>
+		<p></p>
 		</p>
 
 
