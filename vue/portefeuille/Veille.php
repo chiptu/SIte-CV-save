@@ -45,7 +45,8 @@
 				<a class="mx-2 js-scrollTo" href="#Déploiement"> Réalisation </a>
 				<a class="mx-2 js-scrollTo" href="#Compétence"> Bilan </a>
 				
-            	<a class="ml-5 mr-2 " href="DbsPatchs.php"> DBS Patchs </a>
+				<a class="ml-5 mr-2" href="Accueil.php"> Accueil </a>
+            	<a class="mx-2 " href="DbsPatchs.php"> DBS Patchs </a>
 				<a class="mx-2 " href="DmsWeb.php"> DMS Web </a>
                 
                 

@@ -53,7 +53,9 @@
 				<a class="mx-2 js-scrollTo" href="#Déploiement"> Déploiement </a>
 				<a class="mx-2 js-scrollTo" href="#Compétence"> Compétence </a>
 				<a class="mx-2 js-scrollTo" href="#Justification"> Justification </a>
-            	<a class="ml-5 mr-2 " href="DmsWeb.php"> DMS Web </a>
+
+				<a class="ml-5 mr-2" href="Accueil.php"> Accueil </a>
+            	<a class="mx-2" href="DmsWeb.php"> DMS Web </a>
 				<a class="mx-2 " href="Veille.php"> Veille technologique </a>
                 
                 
