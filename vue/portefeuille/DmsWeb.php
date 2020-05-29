@@ -64,15 +64,15 @@
 	</nav>
 	
 	
-	<div class = "container h-100 bg-white" id="doc">
-		
-	<br>
-	
-	<h1>DMS Web</h1>
-	
 	
 	<div class="row">
          <div class="col-12">
+
+		 <div class = "container bg-white" id="doc">
+		
+		<br>
+		
+		<h1>DMS Web</h1>
 
 
                 <h2 class="pt-5" id ="Contexte">Contexte</h2><br>
@@ -188,7 +188,7 @@
 					
 					<tr>
                         <td >A4.1.2</td>
-                        <td >Conception ou adaptation de l'interface utilisateur d'une solution apllicative</td>
+                        <td >Conception ou adaptation de l'interface utilisateur d'une solution aplicative</td>
                         <td><a class ="ml-0 pl-0 text-primary js-scrollTo" href ="#A4.1.2">ici</a></td>						
   
                     </tr>
@@ -226,39 +226,133 @@
 		<h2 class="pt-5" id ="Justification">Justification</h2><br>
 
 		
-		<h4 id="A1.1.1">A1.1.1</h4><br>
+		<h4 class="pt-5" id="A1.1.1">A1.1.1</h4><br>
 		<p>
+		Ce projet a nécissité une analyse des besoins pour choisir certaines librairies, mise en forme.<br>
+		Les besoins n'étaient pas exprimés à l'écrit mais à l'oral par mon tuteur. Une fois énoncé je notais, décortiquais ces besoins sur trello.<br>
 		</p>
-		<h4 id="A1.1.3">A1.1.3</h4><br>
+		<img class="picture rounded w-50 mx-5 px-4 h-25 "
+    		 src="../../images/portefeuille/trello2.png"
+     		 alt="archive trello"><br><br>
+
+
+		<h4 class="pt-5" id="A1.1.3">A1.1.3</h4><br>
 		<p>
+		L'analyse du besoin engendre des critères minimum d'exigence. Par exemple le besoin de gestion des widgets dans le localstorage nécessite de le transformer 
+		en un objet JSON qu'on pourra récupérer et stocker sur appel de fonction.
 		</p>
-		<h4 id="A1.4.1">A1.4.1</h4><br>
+
+		<h4 class="pt-5" id="A1.4.1">A1.4.1</h4><br>
 		<p>
+		Je vous renvoie au contexte, environnement, déploiement. En complément voici les parties du projet sur lequelles j'ai travaillé.<br><br>
+		Il existait quasiment que la navbar sur ce projet ReactJS, il a fallu faire les cadres du tableau de bord, les "cardbox" cliquables et à la fois qu'on peut mettre 
+		en favoris via une gestion dans le LocalStorage du navigateur.<br><br> 
+		Ensuite la gestion des widgets avec une popup pour sélectionner les widgets, les afficher, 
+		cette gestion s'est aussi faite dans le LocalStorage.<br><br>
+		Enfin dans chaque menu afficher les bonnes cardbox.<br><br>
+		ReactJS était assez nouveau à appréhender puisque il n'est pas sur le format MVC, tout se fait en FrontEnd et marche par composant et chaque composant à un état.<br><br>
+		Par exemple le dossier App.js est la racine de tous les composants, il inclut navheader qui inclut une route vers dashboard qui inclut cadre widget, incluant 
+		le popup et les widgets à afficher.<br><br>
+		Si dans mon fichier popup je dis a=1 print(a) une erreur me sera renvoyé , ReactJS marchant avec un cylce de vie d'état la variable n'existe pas encore, il va falloir
+		recharger le composant pour que le variable existe.  a=1 this.setState{(a:1)} if isset(a) {print(a)} .
 		</p>
-		<h4 id="A2.3.1">A2.3.1</h4><br>
+		<img class="picture rounded w-75 "
+    	src="../../images/portefeuille/composant.png"
+     	alt="archive trello"><br><br>
+
+		 <img class="picture rounded w-75 "
+    	src="../../images/portefeuille/composant2.png"
+     	alt="archive trello"><br><br>
+
+		<img class="picture rounded w-75 "
+    	src="../../images/portefeuille/dms.png"
+     	alt="archive trello"><br><br>
+
+		 <img class="picture rounded w-75 "
+    	src="../../images/portefeuille/dms2.png"
+     	alt="archive trello"><br><br>
+
+		 <img class="picture rounded w-75 "
+    	src="../../images/portefeuille/dms3.png"
+     	alt="archive trello"><br><br>
+
+		<p>Ces images au-dessus correspondent à la version de l'application mise en forme avec TailWind qui permet de mettre quasi tout le css dans les class du html. 
+		<br><br>Cette version n'a pas convenue à mon tuteur, il a alors acheté un template de dashboard marchant avec bootstrap. Mon rôle a donc été de passer de tailwind 
+		aux éléments de bootstrap conçus dans le dashboard en les adaptant si besoin.</p>
+
+
+		<img class="picture rounded w-75 "
+    	src="../../images/portefeuille/design1.png"
+     	alt="archive trello"><br><br>
+
+		<img class="picture rounded w-75 "
+    	src="../../images/portefeuille/design2.png"
+     	alt="archive trello"><br><br>
+
+		 <img class="picture rounded w-75 "
+    	src="../../images/portefeuille/design3.png"
+     	alt="archive trello"><br><br>
+
+		 <p>J'ai aussi rajouter de la mise en forme sur la recherche de clients</p>
+
+		 <img class="picture rounded w-75 "
+    	src="../../images/portefeuille/design4.png"
+     	alt="archive trello"><br><br>
+
+		 <img class="picture rounded w-75 "
+    	src="../../images/portefeuille/design5.png"
+     	alt="archive trello"><br><br>
+
+		 <img class="picture rounded w-75 "
+    	src="../../images/portefeuille/design6.png"
+     	alt="archive trello"><br><br>
+
+		 <img class="picture rounded w-75 "
+    	src="../../images/portefeuille/design7.png"
+     	alt="archive trello"><br><br>
+
+		<h4 class="pt-5" id="A2.3.1">A2.3.1</h4><br>
 		<p>
+		Plusieurs problèmes de mises en forme sont apparus au cours du projet, ils ont tous été résolu après avoir été identifié, qualifié, évalué.<br><br>
+		Par exemple dans le popup des widgets le bouton fermer était trop bas et impossible à remonter avec mes connaissances il a fallu identifié la source du problème
+		grâce aux outils des navigateurs. Le PopUp crée une sorte de margin il a fallu , arranger celle-ci pour que le bouton soit dans la popup.
 		</p>
-		<h4 id="A3.2.1">A3.2.1</h4><br>
+		<h4 class="pt-5" id="A3.2.1">A3.2.1</h4><br>
 		<p>
+		Comme vous pouvez le voir dans contexte et déploiement pour ce projet a été configuré et installer le framework ReactJS basé sur Node.js.
 		</p>
-		<h4 id="A3.2.2">A3.2.2</h4><br>
+		<h4 class="pt-5" id="A3.2.2">A3.2.2</h4><br>
 		<p>
+		L'élément mis à jour ici est la librairie de mise en forme de l'interface qui est passé de tailwind à bootstrap ce qui a demandé d'adapter un certain nombre 
+		d'éléments.
 		</p>
-		<h4 id="A4.1.2">A4.1.2</h4><br>
+		<h4 class="pt-5" id="A4.1.2">A4.1.2</h4><br>
 		<p>
+		Comme expliqué dans A1.4.1 participation à un projet, l'immense partie du temps ce projet était sur la conception, adaptation d'interface utilisateur d'une 
+		solution applicative.
 		</p>
-		<h4 id="A4.1.3">A4.1.3</h4><br>
+		<h4 class="pt-5" id="A4.1.3">A4.1.3</h4><br>
 		<p>
+		Ce projet ne contient pas sur la partie où je travaillais de base de données sql mais pour la persistence des données, objets, je transformais un objet en 
+		JSON pour ensuite l'enregistrer dans le localStorage du navigateur, on peut ensuite le récupérer, modifier, supprimer.
 		</p>
-		<h4 id="A4.1.6">A4.1.6</h4><br>
+		<img class="picture rounded w-75 "
+    	src="../../images/portefeuille/json.png"
+     	alt="archive trello"><br><br>
+		<h4 class="pt-5" id="A4.1.6">A4.1.6</h4><br>
 		<p>
+		Comme vous pouvez le voir dans contexte et déploiement pour ce projet a été configuré et installer le framework ReactJS basé sur Node.js.
 		</p>
-		<h4 id="A4.1.8">A4.1.8</h4><br>
+		<h4 class="pt-5" id="A4.1.8">A4.1.8</h4><br>
 		<p>
+		Chaque fonctionnalité a été testé à la main en envisageant toutes les utilisations possibles de l'utilisateurs exemple mise en favoris des cardbox , ajout et 
+		retrain des widgets...
 		</p>
-		<h4 id="A4.2.2">A4.2.2</h4><br>
+		<h4 class="pt-5" id="A4.2.2">A4.2.2</h4><br>
 		<p>
-		</p>
+		Le composant mis à jour ici est la librairie de mise en forme de l'interface qui est passé de tailwind à bootstrap ce qui a demandé d'adapter un certain nombre 
+		d'éléments.
+		</p><br><br>
 
 
     </div>
