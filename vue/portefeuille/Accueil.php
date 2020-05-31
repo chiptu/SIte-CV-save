@@ -110,7 +110,9 @@
             </table>
         </div>
                 <br><br>
-        <p>Voici le tableau des competences de chaque projet, vous le retrouverez sur la page de chaque projet également.</p><br><br>
+        <p>Voici le tableau des competences de chaque projet, vous le retrouverez sur la page de chaque projet également.<br><br> J'ai choisi de présenter 
+        mes deux projets de stages de seconde année car ils me semblent les plus pertinents pour y associer des compétences vu que c'est avec ses deux projets 
+        que j'ai appris le plus . </p><br><br>
 
         <h3><u>DBS Patchs :</h3></u><br>
 
