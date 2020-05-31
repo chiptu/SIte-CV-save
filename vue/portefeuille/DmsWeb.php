@@ -348,8 +348,17 @@
 		<h4 class="pt-5" id="A4.1.8">A4.1.8</h4><br>
 		<p>
 		Chaque fonctionnalité a été testé à la main en envisageant toutes les utilisations possibles de l'utilisateurs exemple mise en favoris des cardbox , ajout et 
-		retrain des widgets...
-		</p>
+		retrait des widgets... Ci-dessous vous pouvez voir un exemple de test d'ajout, retrait avec vue sur le localStorage</p>
+
+		<img class="picture rounded w-75 "
+    	src="../../images/portefeuille/jeutest.png"
+     	alt="archive trello"><br><br>
+
+		<img class="picture rounded w-75 "
+    	src="../../images/portefeuille/jeutest2.png"
+     	alt="archive trello"><br><br>
+		
+
 		<h4 class="pt-5" id="A4.2.2">A4.2.2</h4><br>
 		<p>
 		Le composant mis à jour ici est la librairie de mise en forme de l'interface qui est passé de tailwind à bootstrap ce qui a demandé d'adapter un certain nombre 

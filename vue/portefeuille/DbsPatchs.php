@@ -281,6 +281,10 @@
 		avec 3 champs possibles j'ai fais 7 tests sur des jeux de données différents. Ces commutations comprennent 3 tests avec 1 champ remplit, 
 		3 tests avec 2 champs remplit , 1 test avec tous les champs remplit.</p>
 
+		<img class="picture rounded w-75 "
+    	src="../../images/portefeuille/jeutest3.png"
+     	alt="archive trello">
+
 		<h4 class="pt-5" id="A1.4.1">A1.4.1</h4><br>
 
 		<p>Je vous renvoie au contexte, environnement, déploiement. En complément voici les parties du projet sur lequelles j'ai travaillé.</p>
@@ -333,20 +337,29 @@
 
 		<h4 class="pt-5" id="A2.3.2">A2.3.2</h4><br>
 		<p>J'ai proposé que tout en bas de la page il y est une option pour télécharger tous les patchs au format word et excel au lieu de devoir les télécharger un par un 
-		puis les fusionner.</p>
+		puis les fusionner. Cette proposition n'a pas été retenue, aujourd'hui le téléchargement de patchs se fait un par un.</p>
+
+		<img class="picture rounded w-75 "
+    	src="../../images/portefeuille/dl.png"
+     	alt="archive trello"><br><br>
+
 		<h4 class="pt-5" id="A3.2.1">A3.2.1</h4><br>
 		<p>Le premier jour j'ai installé laravel 5.8 et j'ai dû mettre à jour puis rétrograder la version de php sur mon poste linux ubuntu, j'ai clôné sur git le 
 		projet dont l'arborescence existait déjà en partie et j'ai appris plusieur commande pour compiler le scss, lancer le serveur apache de laravel, installer composer,
 		vider le cache ...</p>
+
 		<h4 class="pt-5" id="A3.2.2">A3.2.2</h4><br>
 		<p>Les éléments de gestions de sous modules, tags, modules peuvent être perçus comme des mises à jour d'éléments car ils comportent la même logique, interface, seul 
 		change les conditions de suppressions.</p>
+
 		<h4 class="pt-5" id="A4.1.1">A4.1.1</h4><br>
 		<p>En ce qui concerne la conversion des objets php patchs au format word, excel, j'étais libre de choir l'outil la solution qui me semblait la plus pertinente.
 		J'ai choisi PhpWord et PhpExcel.</p>
+
 		<h4 class="pt-5" id="A4.1.2">A4.1.2</h4><br>
 		<p>L'interface est en partie conçu par moi, mon tuteur me recadrait si quelque chose ne convenait pas, si des éléments existaient déjà je les réutilisaient comme 
 		le formulaire d'ajout et de modification de module par exemple.</p>
+
 		<h4 class="pt-5" id="A4.1.3">A4.1.3</h4><br>
 		<p> La base de donnée était déjà conçu, il a juste fallu modifier certain détail dedans notemment entre le relation patchs et modules.</p>
 
@@ -363,9 +376,13 @@
 		mais très peu complète j'ai dû aller voir sur des forums comme stackoverflow et github.</p>
 		<h4  class="pt-5" id="A4.1.8">A4.1.8</h4><br>
 		<p>Les tests sont fait à la main, j'ai réfléchit à tous les cas possibles de jeux de données à trier, convertir et j'ai tester cela.</p>
+		<img class="picture rounded w-75 "
+    	src="../../images/portefeuille/jeutest3.png"
+     	alt="archive trello">
+		
 		<h4 class="pt-5" id="A4.1.9">A4.1.9</h4><br>
 		
-		<p>Vous trouverez ci-dessous le documentation que j'ai rédigé sur la recherche, conversion de patchs correspondant à ce controlleur app/Http/PatchController .</p>
+		<p>Vous trouverez ci-dessous la documentation que j'ai rédigé sur la recherche, conversion de patchs correspondant à ce controlleur app/Http/PatchController .</p>
     		<a class = "btn btn-primary mr-5 mb-5" href="../../images/portefeuille/doc.pdf" download="DocRecherchePatchs">Télécharger la doc de recherche de patchs</a>
 		
 		</p>
