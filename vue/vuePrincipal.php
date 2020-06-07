@@ -234,7 +234,7 @@ Ce portfolio que j’ai souhaité coder entièrement sans recourir à l’utilis
   					
    						 <h5 class="card-title">Petits projets,travaux</h5>
     					 <p class="card-text"> Des petits travaux dans différents langages, environnements. Application windows pour envoyer des mails en C#. Jeux démineur, pendu, echecs en python. 
-						  Programmation orientée objet en java.  </p>
+						   </p>
     					 
     					 <div class = "text-center">
     					 	<a href="vue/doc/docTravaux.php" class="btn btn-primary m-2 ">Voir la doc</a><a href="vue/docTravaux.php#Liens" class="btn btn-primary m-2">Voir le code</a>
