@@ -237,10 +237,10 @@ Ce portfolio que j’ai souhaité coder entièrement sans recourir à l’utilis
 						   </p>
     					 
     					 <div class = "text-center">
-    					 	<a href="vue/doc/docTravaux.php" class="btn btn-primary m-2 ">Voir la doc</a><a href="vue/docTravaux.php#Liens" class="btn btn-primary m-2">Voir le code</a>
+    					 	<a href="vue/doc/docTravaux.php" class="btn btn-primary m-2 ">Voir la doc</a><a href="vue/doc/docTravaux.php#Liens" class="btn btn-primary m-2">Voir le code</a>
     					 </div>
    						 
-						 <h3 class="text-center font-weight-bold text-warning"><u>En cours de rédaction</u></h2>
+						 
    					
   					</div>
 			</div>
