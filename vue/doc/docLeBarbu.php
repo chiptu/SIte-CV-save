@@ -4,15 +4,15 @@
 <html lang="fr">
 	
 
-<script src="../style/jquery-3.4.1.js"></script>
+<script src="../../style/jquery-3.4.1.js"></script>
 		
 
-		<link href="../style/bootstrap-4.3.1/dist/css/bootstrap.min.css" rel="stylesheet"> 
+		<link href="../../style/bootstrap-4.3.1/dist/css/bootstrap.min.css" rel="stylesheet"> 
 		
-		<link href="../style/layout.css" rel="stylesheet">
+		<link href="../../style/layout.css" rel="stylesheet">
 		
 		
-		<script src="../style/bootstrap-4.3.1/dist/js/bootstrap.min.js"></script>
+		<script src="../../style/bootstrap-4.3.1/dist/js/bootstrap.min.js"></script>
 
 
 
@@ -50,8 +50,23 @@
 	<br>
 	
 	<h1>Le Barbu</h1>
-	
-	
+	<p>
+--- Introduction<br>
+	Ce que j ai appris, le but du projet, technos stack utilisé<br><br>
+
+--- Interface <br>
+	XML , boite a outils drag and drop, Contrainte, logique par activité<br><br>
+
+--- BDD SQLITE3<br>
+	Expliquer code AccesBDD et MySqlLite, comment acceder a la bdd et la tester grace au plugin opera.<br><br>
+
+--- Programmation Java<br>
+	-Gestion formulaire prenom<br>
+	-Gestion activite3<br><br>
+
+--- Admob, google play console<br>
+
+	</p>
 	
 	
 
