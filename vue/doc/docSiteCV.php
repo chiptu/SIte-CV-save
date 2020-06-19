@@ -178,7 +178,7 @@
 				<h4>Exemples d'éléments</h4><br>
 
 
-				<div class = "ph4">Les exemple que je vais montrer ici sont issues d'un projet d'entreprise de mon stage de 2eme année de BTS SIO.
+				<div class = "ph4">Les exemples que je vais montrer ici sont issues d'un projet d'entreprise de mon stage de 2eme année de BTS SIO.
 				Sans bootstrap ils nécessitent du javascript,html,css. Pour commencer voici un bouton supprimer qui pour éviter les suppressions accidentelles
 				déclenche un popup (modal) avec deux boutons supplémentaires.</div>
 				
