@@ -160,7 +160,6 @@
 
 			<h2 class="pt-5" id ="2">BDD Sqlite3</h2><br>
 			<p>
-			Expliquer code AccesBDD et MySqlLite, comment acceder a la bdd et la tester grace au plugin opera.<br><br>
 			
 			Les ressources d'AndroidStudio sont faites en sorte que pour stocker des données en local, SqlLite3 est la base de données par défaut à utiliser. 
 			Il est dommage qu'on ne puisse pas avoir une interface semblable à celle de phpMyAdmin.<br><br>
@@ -197,16 +196,90 @@
 
 			  <img class="picture  m-4 w-75 rounded"
 	 		src="../../images/doc/ImgBarbu/BDD/MySqliteReader.png"
-	 		 alt="dataphone"><br><br>
+	 		 alt="SqliteReader"><br><br>
+
+
+
+
 
 
 
 			<h2 class="pt-5" id ="3">Programmation Java</h2><br>
 
 			<p>
-			Par odre d'activité voir à la section interface
-			</p>
 			
+
+			AndroidStudio a une logique par activité, une activité est une "page", interface où vont être liés le langage graphique (xml) et le langage de programmation (java).<br><br>
+
+			Tout le code ne sera pas présenté mais uniquement ce qui me semble le plus intéressant. <br><br>
+
+			On va donc dans MainActivity pouvoir déclarer les boutons, texte à saisir, texte à afficher... Pour pouvoir agir en fonction de l'utilisateur.</p>
+
+			<img class="picture  m-4 w-75 rounded"
+	 		src="../../images/doc/ImgBarbu/Java/MainActivity.png"
+	 		 alt="MainActivity"><br><br>
+
+			<p>
+			Je vérifie entre autres si la base de données contient déjà des règles ou non. Si elle ne contient pas de règles je considère que c'est le premier lancement de l'application et insère les règles de base.
+			</p>
+
+			<img class="picture  m-4 w-75 rounded"
+	 		src="../../images/doc/ImgBarbu/Java/regle.png"
+	 		 alt="Regle"><br><br>
+
+			<p>
+			Ensuite pour le formulaire des noms j'ai un bouton qui déclenche une liste allant de 1 à 10. Si l'utilisateur sélectionne 4 je dois afficher 4 textes à saisir et 4 textes d'affichage. <br><br></p>
+
+			<img class="picture  m-4 w-25 rounded"
+	 		src="../../images/doc/ImgBarbu/Java/4.png"
+	 		 alt="Capture app formulaire prenom"><br><br>
+
+			<p>
+			Dans un premier temps je me suis dis je vais faire 10 conditions if en mettant en invisible ou visible les textes à saisir correspondant. Sachant que je dois le faire pour le texte à saisir et le texte d'affichage 
+			cela ferait 10 conditions x 10 (invisibiliser) x 2 (elements differents) soit 200 lignes de codes redondantes.<br><br>
+
+			Pour optimiser mon code j'ai donc pensé à mettre tous ces éléments dans une ArrayList (collection) et automatiser leurs statuts de visibilités avec une boucle.
+			</p>
+
+			<img class="picture  m-4 w-50 rounded"
+	 		src="../../images/doc/ImgBarbu/Java/MainActivity2ArrayList.png"
+	 		 alt="ArrayList"><br><br>
+
+			<p>J'appele ensuite ces fonctions directement selon le positionnement du spinner (bouton liste).</p>
+			
+			<img class="picture  m-4 w-50 rounded"
+	 		src="../../images/doc/ImgBarbu/Java/MainActivity2Spinner.png"
+	 		 alt="Appelle fonction arraylist"><br><br>
+
+			<p>Pour la 3 eme activité celle du jeu en lui même, à chaque pioche un nombre au hasard est déterminé entre 1 et 52, si il n'a pas été déjà pioché la carte s'affiche. <br><br></p>
+
+			<img class="picture  m-4 w-50 rounded"
+	 		src="../../images/doc/ImgBarbu/Java/MainActivity3(1).png"
+	 		 alt="Appelle fonction arraylist"><br><br>
+
+
+			<p>Dans une variable tampon est gardé une ancienne carte pour l'afficher derrière la nouvelle carte pioché (sorte d'historique à un coup).<br><br></p>
+
+			
+			  <img class="picture  m-4 w-75 rounded"
+	 		src="../../images/doc/ImgBarbu/Java/MainActivity3(3).png"
+	 		 alt="Appelle fonction arraylist"><br><br>
+
+			<p>Toutes les cartes passées sont dans une arraylist si celle-ci dépasse 52 la partie est considéré comme terminé. </p>
+
+			<img class="picture  m-4 w-75 rounded"
+	 		src="../../images/doc/ImgBarbu/Java/MainActivity3(2).png"
+	 		 alt="Appelle fonction arraylist"><br><br>
+
+
+			<p>	Le code documenté n'est pas exhaustif, j'aurai pu mentionner le code pour faire un popup , pour modifier les règles, pour identifier une carte, mettre en place une pub...	<br><br>
+			
+			<u class="font-weight-bold">En résumé:</u> L'essentiel du code est de la programmation impérative (boucles, conditions...), une partie lié à Sqlite3 est orienté objet et le reste est essentiellement de l'appel de fonction 
+			lié aux ressources d'AndroidStudio.
+
+			</p>
+
+
 			<h2 class="pt-5" id ="4">Déploiement</h2><br><br>
 			<p>
 			Google play console, admob, build apk
