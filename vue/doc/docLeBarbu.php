@@ -84,10 +84,10 @@
 			<p>
 			
 			L'idée de ce projet était donc de faire une application android permettant de jouer au jeu de cartes s'appelant le barbu (ou parfois appelé palmier).<br> <br>
-			Il se joue à plusieurs (1 à 10) au tour par tour,
+			Il se joue à plusieurs (2 à 10) au tour par tour,
 			une carte pioché par un joueur est soit un nombre de gorgée à distribuer ou un mini jeu, l'utilisateur peut modifier les mini jeux si ils le souhaitent.<br><br>
 
-			L'application est faite sur AndroidStudio avec le langage java et une base de données Sqlite3, les interfaces sont ajuster en parties avec la langage de balisage xml.<br><br>
+			L'application est faite sur AndroidStudio avec le langage java et une base de données Sqlite3, les interfaces sont ajuster en parties avec le langage de balisage xml.<br><br>
 
 			Le but était que je teste de nouveaux outils, langages, framework et de sortir réellement une application sur le playstore pour voir concrétement ce que c'est de faire une application android, 
 			de la tester, déployer...
@@ -102,7 +102,7 @@
 			
 			L'application comprend 4 interfaces: <br><br>
 
-			Les interfaces en bleu sont inclus dans android studio pour voir les éléments invisibles à l'écran, les identifiants des éléments et dans certains cas les contraintes, elles sont aussi plus rapide à générer.<br><br>
+			Les interfaces en bleu sont inclus dans android studio pour voir les éléments invisibles à l'écran, les identifiants des éléments et dans certains cas les contraintes, elles sont aussi plus rapides à générer.<br><br>
 
 			L'interface "d'accueil" qui comprend une pub, une explication de ce qu'est le barbu :	</p>	
 
@@ -282,8 +282,40 @@
 
 			<h2 class="pt-5" id ="4">Déploiement</h2><br><br>
 			<p>
-			Google play console, admob, build apk
+			Google play console, admob, build apk<br><br>
+
+			Pour déployer une application sur le play store il faut avoir un compte google développeur qui coûte 25$.<br><br>
+			Une fois le compte crée on peut accéder à la google play console qui permet d'ajouter, paramétrer entièrement ses applications.<br><br> 
 			</p>
+
+			<img class="picture   w-100 rounded"
+	 		src="../../images/doc/ImgBarbu/Deploiement/GooglePlayConsole.png"
+	 		 alt="Appelle fonction arraylist"><br><br>
+
+			<p>Avant de soumettre l'application à la vérification de google pour la publier il va falloir répondre à tout un tas de question sur si l'application contient des achats, de la violence, alcool ect.<br><br>
+			Il va falloir générer l'application au format apk ou bundle avec une clé privé donné par google. Lors de la génération de l'apk ou du bundle il est possible qui faille configuré le fichier GradleBuild dans AndroidStudio.</p>
+
+			<img class="picture   w-25 rounded"
+	 		src="../../images/doc/ImgBarbu/Deploiement/Keys.png"
+	 		 alt="Appelle fonction arraylist"><br><br>
+
+			  <img class="picture   w-75 rounded"
+	 		src="../../images/doc/ImgBarbu/Deploiement/GenerateBundle.png"
+	 		 alt="Appelle fonction arraylist"><br><br>
+
+
+			  <img class="picture   w-75 rounded"
+	 		src="../../images/doc/ImgBarbu/Deploiement/GradleBuild.png"
+	 		 alt="Appelle fonction arraylist"><br><br>
+
+			  <p>Enfin il restera à créer sa fiche playstore avec photos, description, image d'icone.<br><br></p>
+
+			  <img class="picture   w-100 rounded"
+	 		src="../../images/doc/ImgBarbu/Deploiement/GooglePlayConsole2.png"
+	 		 alt="Appelle fonction arraylist"><br><br>
+
+
+
 
 			<h2 class="pt-5" id ="Conclusion">Conclusion</h2><br><br>
 	

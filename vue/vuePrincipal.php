@@ -215,11 +215,9 @@ Ce portfolio que j’ai souhaité coder entièrement sans recourir à l’utilis
 						  est en Java avec une BDD Sqlite. </p>
     					 
     					 <div class = "text-center">
-    					 	<a href="#Projets" class="btn btn-primary m-2">Voir la doc</a><a href="https://github.com/chiptu/AndroidBarbu" class="btn btn-primary m-2">Voir le code</a>
+    					 	<a href="vue/doc/docLeBarbu.php" class="btn btn-primary m-2">Voir la doc</a><a href="https://github.com/chiptu/AndroidBarbu" class="btn btn-primary m-2">Voir le code</a>
     					 </div>
 
-						 <h3 class="text-center font-weight-bold text-danger"><u>Projet en cours</u></h2>
-   						 
    						 
    					
   					</div>
