@@ -42,7 +42,7 @@
 
 
 
-
+<body>
 
 	<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
 		
@@ -164,7 +164,7 @@
 			Les ressources d'AndroidStudio sont faites en sorte que pour stocker des données en local, SqlLite3 est la base de données par défaut à utiliser. 
 			Il est dommage qu'on ne puisse pas avoir une interface semblable à celle de phpMyAdmin.<br><br>
 
-			Par rapport à PhpMyAdmin qui marche avec MySql on doit faire en sorte que la base de données puissent se créer, mettre à jour automatiquement vu quelle est en local.
+			Par rapport à PhpMyAdmin qui marche avec MySql on doit faire en sorte que la base de données puissent se créer, mettre à jour automatiquement vu quelle est en local sur le téléphone de l'utilisateur (la bdd peut être supprimé, modifié...).
 			</p>
 
 
@@ -173,7 +173,7 @@
 	 		 alt="MySqlite"><br><br>
 
 			<p>
-			Pour les requêtes CRUD (Create Read Update Delete), on fait une classe à part où on peut faire des requêtes SQL directement. Pour prendre des données avec un SELECT on est obligé de faire un curseur.
+			Pour les requêtes CRUD (Create Read Update Delete), on fait une classe à part où on peut faire des requêtes SQL directement. Pour prendre des données avec un SELECT on est obligé d'utiliser un curseur.
 			</p>
 
 			<img class="picture  m-4 w-75 rounded"
@@ -182,7 +182,7 @@
 
 
 			<p>
-			Pour pouvoir faire des requêtes sur la base de données pour faire des test, vu qu'il n'y a pas d'interface implémenté de base, j'ai pris la bdd depuis les données locales de mon téléphone et ensuite l'ai upload dans 
+			Pour pouvoir faire des requêtes sur la base de données, vu qu'il n'y a pas d'interface implémenté de base, il est nécessaire de prendre la bdd depuis les données locales de son téléphone et ensuite l'upload dans 
 			un "lecteur" de bdd Sqlite.
 			</p>
 
@@ -280,6 +280,9 @@
 			</p>
 
 
+
+
+
 			<h2 class="pt-5" id ="4">Déploiement</h2><br><br>
 			<p>
 			Google play console, admob, build apk<br><br>
@@ -317,8 +320,14 @@
 
 
 
-			<h2 class="pt-5" id ="Conclusion">Conclusion</h2><br><br>
+			<h2 class="pt-5" id ="Conclusion">Conclusion</h2><br>
+
+			<p>
+			Le développement entre une application mobile et web sont différents sur la mise en forme (xml/html) et a sa propre logique (activité/submit).<br><br>
+			Ce projet m'a permis de changer d'environnement et donc de tester et appréhender de nouveaux outil, langages, framework.
+			</p><br><br><br><br><br>
 	
 		</div>
 	</div>
 </div>
+</body>
