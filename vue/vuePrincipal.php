@@ -275,7 +275,7 @@ Ce portfolio que j’ai souhaité coder entièrement sans recourir à l’utilis
 			</div>
 		
 		</div>
-  <div class = "text-part"> 2020 © - Le Guillou Alexandre </div>
+  <div class = "text-part"> 2020 🄯 - Le Guillou Alexandre </div>
   
   
 </footer>

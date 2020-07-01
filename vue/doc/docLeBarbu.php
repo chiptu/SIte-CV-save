@@ -164,7 +164,7 @@
 			Les ressources d'AndroidStudio sont faites en sorte que pour stocker des données en local, SqlLite3 est la base de données par défaut à utiliser. 
 			Il est dommage qu'on ne puisse pas avoir une interface semblable à celle de phpMyAdmin.<br><br>
 
-			Par rapport à PhpMyAdmin qui marche avec MySql on doit faire en sorte que la base de données puissent se créer, mettre à jour automatiquement vu quelle est en local sur le téléphone de l'utilisateur (la bdd peut être supprimé, modifié...).
+			Par rapport à PhpMyAdmin qui marche avec MySql on doit faire en sorte que la base de données puissent se créer, mettre à jour automatiquement vu qu'elle est en local sur le téléphone de l'utilisateur (la bdd peut être supprimé, modifié...).
 			</p>
 
 
@@ -182,7 +182,7 @@
 
 
 			<p>
-			Pour pouvoir faire des requêtes sur la base de données, vu qu'il n'y a pas d'interface implémenté de base, il est nécessaire de prendre la bdd depuis les données locales de son téléphone et ensuite l'upload dans 
+			Pour pouvoir faire des requêtes sur la base de données, vu qu'il n'y a pas d'interface implémenté de la base de données, il est nécessaire de prendre la bdd depuis les données locales de son téléphone et ensuite l'upload dans 
 			un "lecteur" de bdd Sqlite.
 			</p>
 
@@ -211,7 +211,7 @@
 
 			AndroidStudio a une logique par activité, une activité est une "page", interface où vont être liés le langage graphique (xml) et le langage de programmation (java).<br><br>
 
-			Tout le code ne sera pas présenté mais uniquement ce qui me semble le plus intéressant. <br><br>
+			Tout le code ne sera pas présenté mais uniquement ce qui me semble le plus pertinent. <br><br>
 
 			On va donc dans MainActivity pouvoir déclarer les boutons, texte à saisir, texte à afficher... Pour pouvoir agir en fonction de l'utilisateur.</p>
 
@@ -235,7 +235,7 @@
 	 		 alt="Capture app formulaire prenom"><br><br>
 
 			<p>
-			Dans un premier temps je me suis dis je vais faire 10 conditions if en mettant en invisible ou visible les textes à saisir correspondant. Sachant que je dois le faire pour le texte à saisir et le texte d'affichage 
+			Dans un premier temps je me suis dis que j'allais faire 10 conditions if en mettant en invisible ou visible les textes à saisir correspondant. Sachant que je dois le faire pour le texte à saisir et le texte d'affichage 
 			cela ferait 10 conditions x 10 (invisibiliser) x 2 (elements differents) soit 200 lignes de codes redondantes.<br><br>
 
 			Pour optimiser mon code j'ai donc pensé à mettre tous ces éléments dans une ArrayList (collection) et automatiser leurs statuts de visibilités avec une boucle.
@@ -323,7 +323,7 @@
 			<h2 class="pt-5" id ="Conclusion">Conclusion</h2><br>
 
 			<p>
-			Le développement entre une application mobile et web sont différents sur la mise en forme (xml/html) et a sa propre logique (activité/submit).<br><br>
+			Le développement entre une application mobile et web sont un peu différents sur la mise en forme (xml/html) et le backend android a sa propre logique et ses ressources fonctionnant par activité .<br><br>
 			Ce projet m'a permis de changer d'environnement et donc de tester et appréhender de nouveaux outil, langages, framework.
 			</p><br><br><br><br><br>
 	
