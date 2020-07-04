@@ -267,7 +267,6 @@ Ce portfolio que j’ai souhaité coder entièrement sans recourir à l’utilis
           				
                     		<li><a href="https://github.com/chiptu" ><img src = "images/github.png" alt = "Logo de Github"></a></li>
                     		
-                   			 <li><a href="https://gitlab.com/chip101"><img src = "images/gitlab.png" alt = "Logo de Gitlab"></a></li>
                    			 
                    			 <li><a href="https://www.linkedin.com/in/alexandre-le-guillou-7765b5163/"><img src = "images/linkedin.png" alt = "Logo de linkedin"></a></li>
                    	</ul>
