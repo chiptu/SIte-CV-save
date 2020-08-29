@@ -39,10 +39,11 @@
 									<div class ="Tel">
 									
 								<br><br>
-							Je suis étudiant en deuxième année de BTS SIO (Services Informatiques aux Organisations), spécialité SLAM (Solutions Logicielles et applications métiers) au lycée Gustave Eiffel.<br> <br>
-Passionné d’informatique et plus particulièrement de programmation, j’ai choisi cette formation pour approfondir mes connaissances en PHP, JavaScript, Java , HTML, CSS… 
- A l’issue de ce BTS, je serai formé pour développer, adapter et maintenir des solutions applicatives. <br><br>
-Ce portfolio que j’ai souhaité coder entièrement sans recourir à l’utilisation d’un CMS ou template, vous présente mon parcours ,mes compétences, expériences et projets.<br><br><br>
+							Je suis alternant en licence professionnelle DAWIN (Développement en Applications Web et Innovation Numérique),
+							 à l'iut informatique de bordeaux.<br> <br>
+Passionné d’informatique et plus particulièrement de programmation, j’ai choisi cette formation pour approfondir mes connaissances en PHP, JavaScript, HTML, CSS… 
+ A l’issue de cette licence professionnelle, je serai formé pour développer, adapter et maintenir des solutions applicatives. <br><br>
+Ce portfolio que j’ai souhaité coder entièrement sans recourir à l’utilisation d’un CMS ou template, vous présente mon parcours, mes compétences, expériences et projets.<br><br><br>
 									
 									</div>
 								</div>
@@ -74,6 +75,10 @@ Ce portfolio que j’ai souhaité coder entièrement sans recourir à l’utilis
                         <div class="card-body">
                             <h5 class="card-title"><img src = "images/formation.png" alt = "Logo de livre">&nbsp;&nbsp;Formations</h5>
                             <ul class="list-group list-group-flush">
+								<li class="list-group-item">
+                                    <p class="card-text"><strong>2020-2021 - Licence Professionnelle DAWIN</strong></p>
+                                    <p class="card-text">Iut Informatique de Bordeaux - Gradignan</p>
+                                </li>
                                 <li class="list-group-item">
                                     <p class="card-text"><strong>2018-2020 - BTS SIO option SLAM</strong></p>
                                     <p class="card-text">Lycée Gustave Eiffel - Bordeaux</p>
@@ -93,7 +98,7 @@ Ce portfolio que j’ai souhaité coder entièrement sans recourir à l’utilis
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">
                                     <p class="card-text"><strong>FrontEnd</strong></p>
-                                    <p class="card-text"> HTML,CSS et Bootstrap niveau intermédiaire , des notions en Tailwind</p>
+                                    <p class="card-text"> HTML,CSS et Bootstrap, Tailwind niveau intermédiaire </p>
                                 </li>
                                 <li class="list-group-item">
                                     <p class="card-text"><strong>Backend</strong></p>
@@ -117,6 +122,10 @@ Ce portfolio que j’ai souhaité coder entièrement sans recourir à l’utilis
                         <div class="card-body">
                             <h5 class="card-title"><img src = "images/experience.png" alt = "Logo de Malette">&nbsp;&nbsp;Expériences</h5>
                             <ul class="list-group list-group-flush">
+								<li class="list-group-item">
+                                    <p class="card-text"><strong>Août 2020 (12 Mois) - DynamicScreen</strong></p>
+                                    <p class="card-text">Laravel, VueJs, Tailwind, Bootstrap.</p>
+                                </li>
 								<li class="list-group-item">
                                     <p class="card-text"><strong>Janvier 2020 (2 Mois) - Skilliance Group</strong></p>
                                     <p class="card-text">Premier projet avec Laravel, Bootstrap, PhpOffice. Second avec ReactJS, Tailwind.</p>
