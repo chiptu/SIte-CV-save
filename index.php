@@ -38,7 +38,7 @@
 		
 		
 		<meta charset="utf-8" />
-		<title>Site CV Le Guillou Alexandre BTS SIO 2nde année </title>
+		<title>Site CV Le Guillou Alexandre </title>
 
 
 		<meta name="description" content="Site CV de Le Guillou Alexandre, étudiant en LP DAWIN, passioné par le développement web. ">
