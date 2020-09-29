@@ -41,11 +41,11 @@
 		<title>Site CV Le Guillou Alexandre BTS SIO 2nde année </title>
 
 
-		<meta name="description" content="Site CV de Le Guillou Alexandre, étudiant en BTS SIO à Gustave Eiffel, passioné par le développement web. ">
+		<meta name="description" content="Site CV de Le Guillou Alexandre, étudiant en LP DAWIN, passioné par le développement web. ">
 		
 		<meta name="author" content="Le Guillou Alexandre">
    		
-   		<meta name="keywords" content="Alexandre, Le Guillou, étudiant, cv, site, web, programmation, informatique, développeur web, développement ">
+   		<meta name="keywords" content="Alexandre, Le Guillou, étudiant, cv, site, web, programmation, informatique, développeur web, développement, LP DAWIN, BTS SIO, Gustave Eiffel ">
 
 
    		<meta property="og:title" content="Site CV de Le Guillou Alexandre" />
@@ -58,7 +58,7 @@
 		<meta property="og:image" content="https://www.leguilloualexandre.fr/images/back3.jpeg"/>
 		
 
-		<meta property=”og:description” content=  "Site CV de Le Guillou Alexandre, étudiant en BTS SIO à Gustave Eiffel, passioné par le développement web." />
+		<meta property=”og:description” content=  "Site CV de Le Guillou Alexandre, étudiant en licence pro DAWIN à l'iut de bordeaux, passioné par le développement web." />
 
 
 
@@ -101,14 +101,14 @@
             	<a class="js-scrollTo" href="#QuiSuisJe"> Qui suis-je </a>
 				<a class="js-scrollTo" href="#Parcours"> Mon parcours </a>
 				<a class="js-scrollTo" href="#Projets"> Mes projets </a>
-				<!--<a class="js-scrollTo" href="#VeilleTechno"> Veille Technologique </a>-->
 				
+			</div>
+	
+		</div>	
         
 	</nav>
 
-		</div>
-	
-	</div>
+		
 
 		
 		
