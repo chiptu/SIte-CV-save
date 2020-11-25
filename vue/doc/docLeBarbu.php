@@ -285,7 +285,6 @@
 
 			<h2 class="pt-5" id ="4">Déploiement</h2><br><br>
 			<p>
-			Google play console, admob, build apk<br><br>
 
 			Pour déployer une application sur le play store il faut avoir un compte google développeur qui coûte 25$.<br><br>
 			Une fois le compte crée on peut accéder à la google play console qui permet d'ajouter, paramétrer entièrement ses applications.<br><br> 
@@ -295,8 +294,8 @@
 	 		src="../../images/doc/ImgBarbu/Deploiement/GooglePlayConsole.png"
 	 		 alt="Appelle fonction arraylist"><br><br>
 
-			<p>Avant de soumettre l'application à la vérification de google pour la publier il va falloir répondre à tout un tas de question sur si l'application contient des achats, de la violence, alcool ect.<br><br>
-			Il va falloir générer l'application au format apk ou bundle avec une clé privé donné par google. Lors de la génération de l'apk ou du bundle il est possible qui faille configuré le fichier GradleBuild dans AndroidStudio.</p>
+			<p>Avant de soumettre l'application à la vérification de google pour la publier il va falloir répondre à tout un tas de question sur si l'application contient des achats, de la violence, alcool etc.<br><br>
+			Il va falloir générer l'application au format apk ou bundle avec une clé privé donné par google. Lors de la génération de l'apk ou du bundle il est possible qu'il faille configurer le fichier GradleBuild dans AndroidStudio.</p>
 
 			<img class="picture   w-25 rounded"
 	 		src="../../images/doc/ImgBarbu/Deploiement/Keys.png"
