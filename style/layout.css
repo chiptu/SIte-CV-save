@@ -6,15 +6,11 @@ html
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-   
 }
-
-
 .text-part 
 {
   text-align: center;
 }
-
 body 
 	{ 
 	background: #717580;
@@ -27,7 +23,6 @@ body
 	text-decoration: underline;
 }
 
-
 .navbar 
 {
 	background :transparent;
@@ -38,23 +33,18 @@ body
 	text-align: center; 
 	
 }
-
 /* Pour que l image soit responsiv */
 .bg5 
  {
- 
   background-image: url("../images/back3.jpeg");
-
  
   height: 100%;
   width : 100%;
- 
  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 
 .navbar-nav mx-auto
 {
@@ -113,8 +103,6 @@ h1
 .Tel{font-size: 12px;}
 }
 
-
-
 .social-icons 
 {
   text-align: center;
@@ -136,23 +124,17 @@ h1
 }
 .social-icons li:hover {
   transform: scale(1.2); 
- 
- 
 }
 
 .card-deck
 {
 	text-align: left
 }
-
-
 .btn:hover {
    background-color: blue;
 }
 
-
 /*<!-- POUR LA DOC -->*/
-
 #doc 
 {
 	color:black;
@@ -181,8 +163,6 @@ h1
 	margin-left:17%;
 	margin-right:25%;
 }
-
-
 
 .container p
 {

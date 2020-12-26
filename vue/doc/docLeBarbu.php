@@ -61,7 +61,7 @@
 				<a class="js-scrollTo" href="#4">Déploiement</a><br>
 				<a class="js-scrollTo" href="#Conclusion">Conclusion</a><br>
        		 	
-       		 	<a class= "ml-5" href="https://leguilloualexandre.fr#Projets">  Revenir aux projets </a>
+       		 	<a class= "ml-5" href="http://leguilloualexandre.coffee#Projets">  Revenir aux projets </a>
             	
 				
 				

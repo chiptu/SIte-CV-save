@@ -51,7 +51,7 @@
        		 	<a class="js-scrollTo" href="#2">Python</a><br>
        		 	<!--<a class="js-scrollTo" href="#3">Java</a><br>-->
 				<a class="js-scrollTo" href="#Liens">Liens</a><br>
-       		 	<a href="https://leguilloualexandre.fr#Projets">  Revenir aux projets </a>
+       		 	<a href="http://leguilloualexandre.coffee#Projets">  Revenir aux projets </a>
        		 	
        		 	
 		

@@ -1,23 +1,14 @@
 
-
-
-
-	
-
 <header>
 	
-
 <div class="row " id="home">
-	
-	
-		<img class= "h-100 d-inline-block bg-info" src=images/back3.jpeg alt = "Image d'arrière plan montrant du code" style="width: 99.4%"/>
-	
+		
+		<img class= "h-100 d-inline-block bg-info" src=images/back3.jpeg alt = "Image d'arrière plan montrant du code" style="width: 99.4%"/>	
 	
 </div>
 	
 </header>
-	
-	
+		
 	<body>
 		
 		<div class="row justify-content-center bg-dark p-5" id="QuiSuisJe">
@@ -25,16 +16,9 @@
 				<h1 >Qui suis je ?</h1>
 			</div>
 		</div>
-
-	
 		<div class="row text-center w-100">
 			
-			
-		 
-        
       	  			<div class="col" >	
-						
- 						
 								<div class = "text">
 									<div class ="Tel">
 									
@@ -48,7 +32,6 @@ Ce portfolio que j’ai souhaité coder entièrement sans recourir à l’utilis
 									</div>
 								</div>
 		 	    	</div>
-		 	    		
 				
 		</div>
 	
@@ -161,8 +144,6 @@ Ce portfolio que j’ai souhaité coder entièrement sans recourir à l’utilis
 </div>
 			
 		
-	
-		
 <div class="row justify-content-center bg-dark p-5 " id="Projets"> 
  	 <h1>Mes projets</h1> 
 </div> 
@@ -192,8 +173,6 @@ Ce portfolio que j’ai souhaité coder entièrement sans recourir à l’utilis
    					
   					</div>
 			</div>
-			
-		
 			
 			
 			
@@ -226,8 +205,6 @@ Ce portfolio que j’ai souhaité coder entièrement sans recourir à l’utilis
     					 <div class = "text-center">
     					 	<a href="vue/doc/docLeBarbu.php" class="btn btn-primary m-2">Voir la doc</a><a href="https://github.com/chiptu/AndroidBarbu" class="btn btn-primary m-2">Voir le code</a>
     					 </div>
-
-   						 
    					
   					</div>
 			</div>
@@ -246,8 +223,6 @@ Ce portfolio que j’ai souhaité coder entièrement sans recourir à l’utilis
     					 <div class = "text-center">
     					 	<a href="vue/doc/docTravaux.php" class="btn btn-primary m-2 ">Voir la doc</a><a href="vue/doc/docTravaux.php#Liens" class="btn btn-primary m-2">Voir le code</a>
     					 </div>
-   						 
-						 
    					
   					</div>
 			</div>
@@ -257,10 +232,7 @@ Ce portfolio que j’ai souhaité coder entièrement sans recourir à l’utilis
 
 	 </div>
 
-
-
 </div>
-		
 		
 
 </body>
@@ -283,8 +255,8 @@ Ce portfolio que j’ai souhaité coder entièrement sans recourir à l’utilis
 			</div>
 		
 		</div>
-  <div class = "text-part"> 2020 🄯 - Le Guillou Alexandre </div>
-  
+		
+			<div class = "text-part"> 2020 🄯 - Le Guillou Alexandre </div>	 
   
 </footer>
 

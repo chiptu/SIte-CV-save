@@ -54,7 +54,7 @@
        		 	<a class="js-scrollTo" href="#2">SEO</a><br>
        		 	<a class="js-scrollTo" href="#3">Hébergement</a><br>
 				<a class="js-scrollTo" href="#Conclusion">Conclusion</a><br>
-       		 	<a href="https://leguilloualexandre.fr#Projets">  Revenir aux projets </a>
+       		 	<a href="http://leguilloualexandre.coffee#Projets">  Revenir aux projets </a>
        		 	
        		 	
 		
